@@ -20,7 +20,7 @@ namespace TokenHelper
             log.Info("Hello world, the form has been loaded");
 
             HideAdfsParameterControls();
-            HideHighTrustParameterControls();
+            checkHighTrust.Checked = true;
 
             LoadSettings();
         }
