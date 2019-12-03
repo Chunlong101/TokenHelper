@@ -86,14 +86,40 @@
             this.txtSpSiteUrlAppOnly = new MetroFramework.Controls.MetroTextBox();
             this.txtSpSiteUrlCredentials = new MetroFramework.Controls.MetroTextBox();
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
+            this.toggleAzureAppOnly = new MetroFramework.Controls.MetroToggle();
+            this.metroTile7 = new MetroFramework.Controls.MetroTile();
+            this.metroLabel16 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel17 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel21 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel18 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel20 = new MetroFramework.Controls.MetroLabel();
+            this.txtAzureCertificatePasswords = new MetroFramework.Controls.MetroTextBox();
+            this.txtAzureAdTenant = new MetroFramework.Controls.MetroTextBox();
+            this.txtAzureCertificatePath = new MetroFramework.Controls.MetroTextBox();
+            this.txtAzureRedirectUrlAppOnly = new MetroFramework.Controls.MetroTextBox();
+            this.txtAzureAppIdAppOnly = new MetroFramework.Controls.MetroTextBox();
+            this.txtAzureSiteUrlAppOnly = new MetroFramework.Controls.MetroTextBox();
+            this.toggleAzureNativeApp = new MetroFramework.Controls.MetroToggle();
+            this.metroTile4 = new MetroFramework.Controls.MetroTile();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
+            this.txtAzureRedirectUrl = new MetroFramework.Controls.MetroTextBox();
+            this.txtAzureClientId = new MetroFramework.Controls.MetroTextBox();
+            this.txtAzureSiteUrl = new MetroFramework.Controls.MetroTextBox();
             this.btnGo = new MetroFramework.Controls.MetroTile();
             this.btnLogs = new MetroFramework.Controls.MetroTile();
             this.lbHint = new MetroFramework.Controls.MetroLabel();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.metroStyleManager1 = new MetroFramework.Components.MetroStyleManager(this.components);
+            this.btnAzureAdCertificatePath = new MetroFramework.Controls.MetroButton();
+            this.btnSpCertificatePath = new MetroFramework.Controls.MetroButton();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
+            this.metroTabPage3.SuspendLayout();
             this.metroPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.SuspendLayout();
@@ -106,7 +132,7 @@
             this.metroTabControl1.Location = new System.Drawing.Point(3, 4);
             this.metroTabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 1;
+            this.metroTabControl1.SelectedIndex = 0;
             this.metroTabControl1.Size = new System.Drawing.Size(748, 496);
             this.metroTabControl1.TabIndex = 2;
             this.metroTabControl1.UseSelectable = true;
@@ -149,7 +175,7 @@
             // toggleSpoInteractive
             // 
             this.toggleSpoInteractive.AutoSize = true;
-            this.toggleSpoInteractive.Location = new System.Drawing.Point(0, 405);
+            this.toggleSpoInteractive.Location = new System.Drawing.Point(0, 399);
             this.toggleSpoInteractive.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.toggleSpoInteractive.Name = "toggleSpoInteractive";
             this.toggleSpoInteractive.Size = new System.Drawing.Size(80, 17);
@@ -160,7 +186,7 @@
             // toggleSpoAppOnly
             // 
             this.toggleSpoAppOnly.AutoSize = true;
-            this.toggleSpoAppOnly.Location = new System.Drawing.Point(0, 316);
+            this.toggleSpoAppOnly.Location = new System.Drawing.Point(0, 301);
             this.toggleSpoAppOnly.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.toggleSpoAppOnly.Name = "toggleSpoAppOnly";
             this.toggleSpoAppOnly.Size = new System.Drawing.Size(80, 17);
@@ -184,7 +210,7 @@
             this.metroTile3.ActiveControl = null;
             this.metroTile3.BackColor = System.Drawing.SystemColors.Desktop;
             this.metroTile3.ForeColor = System.Drawing.Color.Cyan;
-            this.metroTile3.Location = new System.Drawing.Point(0, 349);
+            this.metroTile3.Location = new System.Drawing.Point(0, 342);
             this.metroTile3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroTile3.Name = "metroTile3";
             this.metroTile3.Size = new System.Drawing.Size(740, 40);
@@ -199,7 +225,7 @@
             this.metroTile2.ActiveControl = null;
             this.metroTile2.BackColor = System.Drawing.SystemColors.Desktop;
             this.metroTile2.ForeColor = System.Drawing.Color.Cyan;
-            this.metroTile2.Location = new System.Drawing.Point(0, 180);
+            this.metroTile2.Location = new System.Drawing.Point(0, 173);
             this.metroTile2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.metroTile2.Name = "metroTile2";
             this.metroTile2.Size = new System.Drawing.Size(740, 40);
@@ -227,7 +253,7 @@
             // metroLabel9
             // 
             this.metroLabel9.AutoSize = true;
-            this.metroLabel9.Location = new System.Drawing.Point(339, 277);
+            this.metroLabel9.Location = new System.Drawing.Point(339, 262);
             this.metroLabel9.Name = "metroLabel9";
             this.metroLabel9.Size = new System.Drawing.Size(70, 19);
             this.metroLabel9.TabIndex = 6;
@@ -245,7 +271,7 @@
             // metroLabel8
             // 
             this.metroLabel8.AutoSize = true;
-            this.metroLabel8.Location = new System.Drawing.Point(0, 277);
+            this.metroLabel8.Location = new System.Drawing.Point(0, 262);
             this.metroLabel8.Name = "metroLabel8";
             this.metroLabel8.Size = new System.Drawing.Size(45, 19);
             this.metroLabel8.TabIndex = 5;
@@ -263,7 +289,7 @@
             // metroLabel14
             // 
             this.metroLabel14.AutoSize = true;
-            this.metroLabel14.Location = new System.Drawing.Point(100, 403);
+            this.metroLabel14.Location = new System.Drawing.Point(100, 397);
             this.metroLabel14.Name = "metroLabel14";
             this.metroLabel14.Size = new System.Drawing.Size(51, 19);
             this.metroLabel14.TabIndex = 4;
@@ -272,7 +298,7 @@
             // metroLabel7
             // 
             this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(0, 241);
+            this.metroLabel7.Location = new System.Drawing.Point(0, 228);
             this.metroLabel7.Name = "metroLabel7";
             this.metroLabel7.Size = new System.Drawing.Size(51, 19);
             this.metroLabel7.TabIndex = 4;
@@ -303,7 +329,7 @@
             this.txtSpoAppSecret.CustomButton.UseSelectable = true;
             this.txtSpoAppSecret.CustomButton.Visible = false;
             this.txtSpoAppSecret.Lines = new string[0];
-            this.txtSpoAppSecret.Location = new System.Drawing.Point(413, 277);
+            this.txtSpoAppSecret.Location = new System.Drawing.Point(413, 262);
             this.txtSpoAppSecret.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSpoAppSecret.MaxLength = 32767;
             this.txtSpoAppSecret.Name = "txtSpoAppSecret";
@@ -367,7 +393,7 @@
             this.txtSpoAppId.CustomButton.UseSelectable = true;
             this.txtSpoAppId.CustomButton.Visible = false;
             this.txtSpoAppId.Lines = new string[0];
-            this.txtSpoAppId.Location = new System.Drawing.Point(74, 277);
+            this.txtSpoAppId.Location = new System.Drawing.Point(74, 262);
             this.txtSpoAppId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSpoAppId.MaxLength = 32767;
             this.txtSpoAppId.Name = "txtSpoAppId";
@@ -431,7 +457,7 @@
             this.txtSpoSiteUrlInteractive.CustomButton.UseSelectable = true;
             this.txtSpoSiteUrlInteractive.CustomButton.Visible = false;
             this.txtSpoSiteUrlInteractive.Lines = new string[0];
-            this.txtSpoSiteUrlInteractive.Location = new System.Drawing.Point(174, 403);
+            this.txtSpoSiteUrlInteractive.Location = new System.Drawing.Point(174, 397);
             this.txtSpoSiteUrlInteractive.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSpoSiteUrlInteractive.MaxLength = 32767;
             this.txtSpoSiteUrlInteractive.Name = "txtSpoSiteUrlInteractive";
@@ -463,7 +489,7 @@
             this.txtSpoSiteUrlAppOnly.CustomButton.UseSelectable = true;
             this.txtSpoSiteUrlAppOnly.CustomButton.Visible = false;
             this.txtSpoSiteUrlAppOnly.Lines = new string[0];
-            this.txtSpoSiteUrlAppOnly.Location = new System.Drawing.Point(74, 241);
+            this.txtSpoSiteUrlAppOnly.Location = new System.Drawing.Point(74, 228);
             this.txtSpoSiteUrlAppOnly.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSpoSiteUrlAppOnly.MaxLength = 32767;
             this.txtSpoSiteUrlAppOnly.Name = "txtSpoSiteUrlAppOnly";
@@ -513,6 +539,7 @@
             // 
             // metroTabPage2
             // 
+            this.metroTabPage2.Controls.Add(this.btnSpCertificatePath);
             this.metroTabPage2.Controls.Add(this.checkHighTrust);
             this.metroTabPage2.Controls.Add(this.checkADFS);
             this.metroTabPage2.Controls.Add(this.toggleSpAppOnly);
@@ -821,7 +848,7 @@
             // 
             // 
             this.txtSpCertificatePath.CustomButton.Image = null;
-            this.txtSpCertificatePath.CustomButton.Location = new System.Drawing.Point(176, 2);
+            this.txtSpCertificatePath.CustomButton.Location = new System.Drawing.Point(140, 2);
             this.txtSpCertificatePath.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSpCertificatePath.CustomButton.Name = "";
             this.txtSpCertificatePath.CustomButton.Size = new System.Drawing.Size(17, 17);
@@ -841,7 +868,7 @@
             this.txtSpCertificatePath.SelectionLength = 0;
             this.txtSpCertificatePath.SelectionStart = 0;
             this.txtSpCertificatePath.ShortcutsEnabled = true;
-            this.txtSpCertificatePath.Size = new System.Drawing.Size(196, 22);
+            this.txtSpCertificatePath.Size = new System.Drawing.Size(160, 22);
             this.txtSpCertificatePath.TabIndex = 13;
             this.txtSpCertificatePath.UseSelectable = true;
             this.txtSpCertificatePath.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -1169,6 +1196,29 @@
             // 
             // metroTabPage3
             // 
+            this.metroTabPage3.Controls.Add(this.btnAzureAdCertificatePath);
+            this.metroTabPage3.Controls.Add(this.toggleAzureAppOnly);
+            this.metroTabPage3.Controls.Add(this.metroTile7);
+            this.metroTabPage3.Controls.Add(this.metroLabel16);
+            this.metroTabPage3.Controls.Add(this.metroLabel17);
+            this.metroTabPage3.Controls.Add(this.metroLabel21);
+            this.metroTabPage3.Controls.Add(this.metroLabel18);
+            this.metroTabPage3.Controls.Add(this.metroLabel19);
+            this.metroTabPage3.Controls.Add(this.metroLabel20);
+            this.metroTabPage3.Controls.Add(this.txtAzureCertificatePasswords);
+            this.metroTabPage3.Controls.Add(this.txtAzureAdTenant);
+            this.metroTabPage3.Controls.Add(this.txtAzureCertificatePath);
+            this.metroTabPage3.Controls.Add(this.txtAzureRedirectUrlAppOnly);
+            this.metroTabPage3.Controls.Add(this.txtAzureAppIdAppOnly);
+            this.metroTabPage3.Controls.Add(this.txtAzureSiteUrlAppOnly);
+            this.metroTabPage3.Controls.Add(this.toggleAzureNativeApp);
+            this.metroTabPage3.Controls.Add(this.metroTile4);
+            this.metroTabPage3.Controls.Add(this.metroLabel1);
+            this.metroTabPage3.Controls.Add(this.metroLabel13);
+            this.metroTabPage3.Controls.Add(this.metroLabel15);
+            this.metroTabPage3.Controls.Add(this.txtAzureRedirectUrl);
+            this.metroTabPage3.Controls.Add(this.txtAzureClientId);
+            this.metroTabPage3.Controls.Add(this.txtAzureSiteUrl);
             this.metroTabPage3.HorizontalScrollbarBarColor = true;
             this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.HorizontalScrollbarSize = 9;
@@ -1181,6 +1231,427 @@
             this.metroTabPage3.VerticalScrollbarBarColor = true;
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.VerticalScrollbarSize = 10;
+            // 
+            // toggleAzureAppOnly
+            // 
+            this.toggleAzureAppOnly.AutoSize = true;
+            this.toggleAzureAppOnly.Location = new System.Drawing.Point(0, 336);
+            this.toggleAzureAppOnly.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.toggleAzureAppOnly.Name = "toggleAzureAppOnly";
+            this.toggleAzureAppOnly.Size = new System.Drawing.Size(80, 17);
+            this.toggleAzureAppOnly.TabIndex = 41;
+            this.toggleAzureAppOnly.Text = "Off";
+            this.toggleAzureAppOnly.UseSelectable = true;
+            // 
+            // metroTile7
+            // 
+            this.metroTile7.ActiveControl = null;
+            this.metroTile7.BackColor = System.Drawing.SystemColors.Desktop;
+            this.metroTile7.ForeColor = System.Drawing.Color.Cyan;
+            this.metroTile7.Location = new System.Drawing.Point(0, 173);
+            this.metroTile7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.metroTile7.Name = "metroTile7";
+            this.metroTile7.Size = new System.Drawing.Size(740, 40);
+            this.metroTile7.TabIndex = 40;
+            this.metroTile7.Text = "App Only";
+            this.metroTile7.UseCustomBackColor = true;
+            this.metroTile7.UseCustomForeColor = true;
+            this.metroTile7.UseSelectable = true;
+            // 
+            // metroLabel16
+            // 
+            this.metroLabel16.AutoSize = true;
+            this.metroLabel16.Location = new System.Drawing.Point(339, 304);
+            this.metroLabel16.Name = "metroLabel16";
+            this.metroLabel16.Size = new System.Drawing.Size(132, 19);
+            this.metroLabel16.TabIndex = 37;
+            this.metroLabel16.Text = "Certificate Passwords";
+            // 
+            // metroLabel17
+            // 
+            this.metroLabel17.AutoSize = true;
+            this.metroLabel17.Location = new System.Drawing.Point(0, 304);
+            this.metroLabel17.Name = "metroLabel17";
+            this.metroLabel17.Size = new System.Drawing.Size(131, 19);
+            this.metroLabel17.TabIndex = 38;
+            this.metroLabel17.Text = "Certificate Path (.pfx)";
+            // 
+            // metroLabel21
+            // 
+            this.metroLabel21.AutoSize = true;
+            this.metroLabel21.Location = new System.Drawing.Point(339, 237);
+            this.metroLabel21.Name = "metroLabel21";
+            this.metroLabel21.Size = new System.Drawing.Size(106, 19);
+            this.metroLabel21.TabIndex = 39;
+            this.metroLabel21.Text = "Azure AD Tenant";
+            // 
+            // metroLabel18
+            // 
+            this.metroLabel18.AutoSize = true;
+            this.metroLabel18.Location = new System.Drawing.Point(339, 269);
+            this.metroLabel18.Name = "metroLabel18";
+            this.metroLabel18.Size = new System.Drawing.Size(78, 19);
+            this.metroLabel18.TabIndex = 39;
+            this.metroLabel18.Text = "Redirect Url";
+            // 
+            // metroLabel19
+            // 
+            this.metroLabel19.AutoSize = true;
+            this.metroLabel19.Location = new System.Drawing.Point(0, 269);
+            this.metroLabel19.Name = "metroLabel19";
+            this.metroLabel19.Size = new System.Drawing.Size(45, 19);
+            this.metroLabel19.TabIndex = 36;
+            this.metroLabel19.Text = "AppId";
+            // 
+            // metroLabel20
+            // 
+            this.metroLabel20.AutoSize = true;
+            this.metroLabel20.Location = new System.Drawing.Point(0, 234);
+            this.metroLabel20.Name = "metroLabel20";
+            this.metroLabel20.Size = new System.Drawing.Size(51, 19);
+            this.metroLabel20.TabIndex = 35;
+            this.metroLabel20.Text = "Site Url";
+            // 
+            // txtAzureCertificatePasswords
+            // 
+            // 
+            // 
+            // 
+            this.txtAzureCertificatePasswords.CustomButton.Image = null;
+            this.txtAzureCertificatePasswords.CustomButton.Location = new System.Drawing.Point(243, 2);
+            this.txtAzureCertificatePasswords.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureCertificatePasswords.CustomButton.Name = "";
+            this.txtAzureCertificatePasswords.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtAzureCertificatePasswords.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAzureCertificatePasswords.CustomButton.TabIndex = 1;
+            this.txtAzureCertificatePasswords.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAzureCertificatePasswords.CustomButton.UseSelectable = true;
+            this.txtAzureCertificatePasswords.CustomButton.Visible = false;
+            this.txtAzureCertificatePasswords.Lines = new string[0];
+            this.txtAzureCertificatePasswords.Location = new System.Drawing.Point(477, 304);
+            this.txtAzureCertificatePasswords.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureCertificatePasswords.MaxLength = 32767;
+            this.txtAzureCertificatePasswords.Name = "txtAzureCertificatePasswords";
+            this.txtAzureCertificatePasswords.PasswordChar = '*';
+            this.txtAzureCertificatePasswords.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAzureCertificatePasswords.SelectedText = "";
+            this.txtAzureCertificatePasswords.SelectionLength = 0;
+            this.txtAzureCertificatePasswords.SelectionStart = 0;
+            this.txtAzureCertificatePasswords.ShortcutsEnabled = true;
+            this.txtAzureCertificatePasswords.Size = new System.Drawing.Size(263, 22);
+            this.txtAzureCertificatePasswords.TabIndex = 31;
+            this.txtAzureCertificatePasswords.UseSelectable = true;
+            this.txtAzureCertificatePasswords.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAzureCertificatePasswords.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // txtAzureAdTenant
+            // 
+            // 
+            // 
+            // 
+            this.txtAzureAdTenant.CustomButton.Image = null;
+            this.txtAzureAdTenant.CustomButton.Location = new System.Drawing.Point(269, 2);
+            this.txtAzureAdTenant.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureAdTenant.CustomButton.Name = "";
+            this.txtAzureAdTenant.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtAzureAdTenant.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAzureAdTenant.CustomButton.TabIndex = 1;
+            this.txtAzureAdTenant.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAzureAdTenant.CustomButton.UseSelectable = true;
+            this.txtAzureAdTenant.CustomButton.Visible = false;
+            this.txtAzureAdTenant.Lines = new string[0];
+            this.txtAzureAdTenant.Location = new System.Drawing.Point(451, 237);
+            this.txtAzureAdTenant.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureAdTenant.MaxLength = 32767;
+            this.txtAzureAdTenant.Name = "txtAzureAdTenant";
+            this.txtAzureAdTenant.PasswordChar = '\0';
+            this.txtAzureAdTenant.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAzureAdTenant.SelectedText = "";
+            this.txtAzureAdTenant.SelectionLength = 0;
+            this.txtAzureAdTenant.SelectionStart = 0;
+            this.txtAzureAdTenant.ShortcutsEnabled = true;
+            this.txtAzureAdTenant.Size = new System.Drawing.Size(289, 22);
+            this.txtAzureAdTenant.TabIndex = 33;
+            this.txtAzureAdTenant.UseSelectable = true;
+            this.txtAzureAdTenant.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAzureAdTenant.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // txtAzureCertificatePath
+            // 
+            // 
+            // 
+            // 
+            this.txtAzureCertificatePath.CustomButton.Image = null;
+            this.txtAzureCertificatePath.CustomButton.Location = new System.Drawing.Point(140, 2);
+            this.txtAzureCertificatePath.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureCertificatePath.CustomButton.Name = "";
+            this.txtAzureCertificatePath.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtAzureCertificatePath.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAzureCertificatePath.CustomButton.TabIndex = 1;
+            this.txtAzureCertificatePath.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAzureCertificatePath.CustomButton.UseSelectable = true;
+            this.txtAzureCertificatePath.CustomButton.Visible = false;
+            this.txtAzureCertificatePath.Lines = new string[0];
+            this.txtAzureCertificatePath.Location = new System.Drawing.Point(137, 304);
+            this.txtAzureCertificatePath.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureCertificatePath.MaxLength = 32767;
+            this.txtAzureCertificatePath.Name = "txtAzureCertificatePath";
+            this.txtAzureCertificatePath.PasswordChar = '\0';
+            this.txtAzureCertificatePath.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAzureCertificatePath.SelectedText = "";
+            this.txtAzureCertificatePath.SelectionLength = 0;
+            this.txtAzureCertificatePath.SelectionStart = 0;
+            this.txtAzureCertificatePath.ShortcutsEnabled = true;
+            this.txtAzureCertificatePath.Size = new System.Drawing.Size(160, 22);
+            this.txtAzureCertificatePath.TabIndex = 32;
+            this.txtAzureCertificatePath.UseSelectable = true;
+            this.txtAzureCertificatePath.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAzureCertificatePath.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // txtAzureRedirectUrlAppOnly
+            // 
+            // 
+            // 
+            // 
+            this.txtAzureRedirectUrlAppOnly.CustomButton.Image = null;
+            this.txtAzureRedirectUrlAppOnly.CustomButton.Location = new System.Drawing.Point(297, 2);
+            this.txtAzureRedirectUrlAppOnly.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureRedirectUrlAppOnly.CustomButton.Name = "";
+            this.txtAzureRedirectUrlAppOnly.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtAzureRedirectUrlAppOnly.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAzureRedirectUrlAppOnly.CustomButton.TabIndex = 1;
+            this.txtAzureRedirectUrlAppOnly.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAzureRedirectUrlAppOnly.CustomButton.UseSelectable = true;
+            this.txtAzureRedirectUrlAppOnly.CustomButton.Visible = false;
+            this.txtAzureRedirectUrlAppOnly.Lines = new string[0];
+            this.txtAzureRedirectUrlAppOnly.Location = new System.Drawing.Point(423, 269);
+            this.txtAzureRedirectUrlAppOnly.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureRedirectUrlAppOnly.MaxLength = 32767;
+            this.txtAzureRedirectUrlAppOnly.Name = "txtAzureRedirectUrlAppOnly";
+            this.txtAzureRedirectUrlAppOnly.PasswordChar = '\0';
+            this.txtAzureRedirectUrlAppOnly.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAzureRedirectUrlAppOnly.SelectedText = "";
+            this.txtAzureRedirectUrlAppOnly.SelectionLength = 0;
+            this.txtAzureRedirectUrlAppOnly.SelectionStart = 0;
+            this.txtAzureRedirectUrlAppOnly.ShortcutsEnabled = true;
+            this.txtAzureRedirectUrlAppOnly.Size = new System.Drawing.Size(317, 22);
+            this.txtAzureRedirectUrlAppOnly.TabIndex = 33;
+            this.txtAzureRedirectUrlAppOnly.UseSelectable = true;
+            this.txtAzureRedirectUrlAppOnly.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAzureRedirectUrlAppOnly.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // txtAzureAppIdAppOnly
+            // 
+            // 
+            // 
+            // 
+            this.txtAzureAppIdAppOnly.CustomButton.Image = null;
+            this.txtAzureAppIdAppOnly.CustomButton.Location = new System.Drawing.Point(239, 2);
+            this.txtAzureAppIdAppOnly.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureAppIdAppOnly.CustomButton.Name = "";
+            this.txtAzureAppIdAppOnly.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtAzureAppIdAppOnly.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAzureAppIdAppOnly.CustomButton.TabIndex = 1;
+            this.txtAzureAppIdAppOnly.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAzureAppIdAppOnly.CustomButton.UseSelectable = true;
+            this.txtAzureAppIdAppOnly.CustomButton.Visible = false;
+            this.txtAzureAppIdAppOnly.Lines = new string[0];
+            this.txtAzureAppIdAppOnly.Location = new System.Drawing.Point(74, 269);
+            this.txtAzureAppIdAppOnly.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureAppIdAppOnly.MaxLength = 32767;
+            this.txtAzureAppIdAppOnly.Name = "txtAzureAppIdAppOnly";
+            this.txtAzureAppIdAppOnly.PasswordChar = '\0';
+            this.txtAzureAppIdAppOnly.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAzureAppIdAppOnly.SelectedText = "";
+            this.txtAzureAppIdAppOnly.SelectionLength = 0;
+            this.txtAzureAppIdAppOnly.SelectionStart = 0;
+            this.txtAzureAppIdAppOnly.ShortcutsEnabled = true;
+            this.txtAzureAppIdAppOnly.Size = new System.Drawing.Size(259, 22);
+            this.txtAzureAppIdAppOnly.TabIndex = 30;
+            this.txtAzureAppIdAppOnly.UseSelectable = true;
+            this.txtAzureAppIdAppOnly.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAzureAppIdAppOnly.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // txtAzureSiteUrlAppOnly
+            // 
+            // 
+            // 
+            // 
+            this.txtAzureSiteUrlAppOnly.CustomButton.Image = null;
+            this.txtAzureSiteUrlAppOnly.CustomButton.Location = new System.Drawing.Point(239, 2);
+            this.txtAzureSiteUrlAppOnly.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureSiteUrlAppOnly.CustomButton.Name = "";
+            this.txtAzureSiteUrlAppOnly.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtAzureSiteUrlAppOnly.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAzureSiteUrlAppOnly.CustomButton.TabIndex = 1;
+            this.txtAzureSiteUrlAppOnly.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAzureSiteUrlAppOnly.CustomButton.UseSelectable = true;
+            this.txtAzureSiteUrlAppOnly.CustomButton.Visible = false;
+            this.txtAzureSiteUrlAppOnly.Lines = new string[0];
+            this.txtAzureSiteUrlAppOnly.Location = new System.Drawing.Point(74, 234);
+            this.txtAzureSiteUrlAppOnly.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureSiteUrlAppOnly.MaxLength = 32767;
+            this.txtAzureSiteUrlAppOnly.Name = "txtAzureSiteUrlAppOnly";
+            this.txtAzureSiteUrlAppOnly.PasswordChar = '\0';
+            this.txtAzureSiteUrlAppOnly.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAzureSiteUrlAppOnly.SelectedText = "";
+            this.txtAzureSiteUrlAppOnly.SelectionLength = 0;
+            this.txtAzureSiteUrlAppOnly.SelectionStart = 0;
+            this.txtAzureSiteUrlAppOnly.ShortcutsEnabled = true;
+            this.txtAzureSiteUrlAppOnly.Size = new System.Drawing.Size(259, 22);
+            this.txtAzureSiteUrlAppOnly.TabIndex = 34;
+            this.txtAzureSiteUrlAppOnly.UseSelectable = true;
+            this.txtAzureSiteUrlAppOnly.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAzureSiteUrlAppOnly.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // toggleAzureNativeApp
+            // 
+            this.toggleAzureNativeApp.AutoSize = true;
+            this.toggleAzureNativeApp.Location = new System.Drawing.Point(0, 139);
+            this.toggleAzureNativeApp.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.toggleAzureNativeApp.Name = "toggleAzureNativeApp";
+            this.toggleAzureNativeApp.Size = new System.Drawing.Size(80, 17);
+            this.toggleAzureNativeApp.TabIndex = 29;
+            this.toggleAzureNativeApp.Text = "Off";
+            this.toggleAzureNativeApp.UseSelectable = true;
+            // 
+            // metroTile4
+            // 
+            this.metroTile4.ActiveControl = null;
+            this.metroTile4.BackColor = System.Drawing.SystemColors.Desktop;
+            this.metroTile4.ForeColor = System.Drawing.Color.Cyan;
+            this.metroTile4.Location = new System.Drawing.Point(0, 4);
+            this.metroTile4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.metroTile4.Name = "metroTile4";
+            this.metroTile4.Size = new System.Drawing.Size(740, 40);
+            this.metroTile4.TabIndex = 28;
+            this.metroTile4.Text = "Credentials (Native App)";
+            this.metroTile4.UseCustomBackColor = true;
+            this.metroTile4.UseCustomForeColor = true;
+            this.metroTile4.UseSelectable = true;
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(339, 100);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(78, 19);
+            this.metroLabel1.TabIndex = 27;
+            this.metroLabel1.Text = "Redirect Url";
+            // 
+            // metroLabel13
+            // 
+            this.metroLabel13.AutoSize = true;
+            this.metroLabel13.Location = new System.Drawing.Point(0, 100);
+            this.metroLabel13.Name = "metroLabel13";
+            this.metroLabel13.Size = new System.Drawing.Size(57, 19);
+            this.metroLabel13.TabIndex = 26;
+            this.metroLabel13.Text = "Client Id";
+            // 
+            // metroLabel15
+            // 
+            this.metroLabel15.AutoSize = true;
+            this.metroLabel15.Location = new System.Drawing.Point(0, 65);
+            this.metroLabel15.Name = "metroLabel15";
+            this.metroLabel15.Size = new System.Drawing.Size(51, 19);
+            this.metroLabel15.TabIndex = 25;
+            this.metroLabel15.Text = "Site Url";
+            // 
+            // txtAzureRedirectUrl
+            // 
+            // 
+            // 
+            // 
+            this.txtAzureRedirectUrl.CustomButton.Image = null;
+            this.txtAzureRedirectUrl.CustomButton.Location = new System.Drawing.Point(297, 2);
+            this.txtAzureRedirectUrl.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureRedirectUrl.CustomButton.Name = "";
+            this.txtAzureRedirectUrl.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtAzureRedirectUrl.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAzureRedirectUrl.CustomButton.TabIndex = 1;
+            this.txtAzureRedirectUrl.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAzureRedirectUrl.CustomButton.UseSelectable = true;
+            this.txtAzureRedirectUrl.CustomButton.Visible = false;
+            this.txtAzureRedirectUrl.Lines = new string[0];
+            this.txtAzureRedirectUrl.Location = new System.Drawing.Point(423, 100);
+            this.txtAzureRedirectUrl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureRedirectUrl.MaxLength = 32767;
+            this.txtAzureRedirectUrl.Name = "txtAzureRedirectUrl";
+            this.txtAzureRedirectUrl.PasswordChar = '\0';
+            this.txtAzureRedirectUrl.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAzureRedirectUrl.SelectedText = "";
+            this.txtAzureRedirectUrl.SelectionLength = 0;
+            this.txtAzureRedirectUrl.SelectionStart = 0;
+            this.txtAzureRedirectUrl.ShortcutsEnabled = true;
+            this.txtAzureRedirectUrl.Size = new System.Drawing.Size(317, 22);
+            this.txtAzureRedirectUrl.TabIndex = 24;
+            this.txtAzureRedirectUrl.UseSelectable = true;
+            this.txtAzureRedirectUrl.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAzureRedirectUrl.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // txtAzureClientId
+            // 
+            // 
+            // 
+            // 
+            this.txtAzureClientId.CustomButton.Image = null;
+            this.txtAzureClientId.CustomButton.Location = new System.Drawing.Point(239, 2);
+            this.txtAzureClientId.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureClientId.CustomButton.Name = "";
+            this.txtAzureClientId.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtAzureClientId.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAzureClientId.CustomButton.TabIndex = 1;
+            this.txtAzureClientId.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAzureClientId.CustomButton.UseSelectable = true;
+            this.txtAzureClientId.CustomButton.Visible = false;
+            this.txtAzureClientId.Lines = new string[0];
+            this.txtAzureClientId.Location = new System.Drawing.Point(74, 100);
+            this.txtAzureClientId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureClientId.MaxLength = 32767;
+            this.txtAzureClientId.Name = "txtAzureClientId";
+            this.txtAzureClientId.PasswordChar = '\0';
+            this.txtAzureClientId.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAzureClientId.SelectedText = "";
+            this.txtAzureClientId.SelectionLength = 0;
+            this.txtAzureClientId.SelectionStart = 0;
+            this.txtAzureClientId.ShortcutsEnabled = true;
+            this.txtAzureClientId.Size = new System.Drawing.Size(259, 22);
+            this.txtAzureClientId.TabIndex = 23;
+            this.txtAzureClientId.UseSelectable = true;
+            this.txtAzureClientId.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAzureClientId.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // txtAzureSiteUrl
+            // 
+            // 
+            // 
+            // 
+            this.txtAzureSiteUrl.CustomButton.Image = null;
+            this.txtAzureSiteUrl.CustomButton.Location = new System.Drawing.Point(646, 2);
+            this.txtAzureSiteUrl.CustomButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureSiteUrl.CustomButton.Name = "";
+            this.txtAzureSiteUrl.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtAzureSiteUrl.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAzureSiteUrl.CustomButton.TabIndex = 1;
+            this.txtAzureSiteUrl.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAzureSiteUrl.CustomButton.UseSelectable = true;
+            this.txtAzureSiteUrl.CustomButton.Visible = false;
+            this.txtAzureSiteUrl.Lines = new string[0];
+            this.txtAzureSiteUrl.Location = new System.Drawing.Point(74, 65);
+            this.txtAzureSiteUrl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAzureSiteUrl.MaxLength = 32767;
+            this.txtAzureSiteUrl.Name = "txtAzureSiteUrl";
+            this.txtAzureSiteUrl.PasswordChar = '\0';
+            this.txtAzureSiteUrl.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAzureSiteUrl.SelectedText = "";
+            this.txtAzureSiteUrl.SelectionLength = 0;
+            this.txtAzureSiteUrl.SelectionStart = 0;
+            this.txtAzureSiteUrl.ShortcutsEnabled = true;
+            this.txtAzureSiteUrl.Size = new System.Drawing.Size(666, 22);
+            this.txtAzureSiteUrl.TabIndex = 22;
+            this.txtAzureSiteUrl.UseSelectable = true;
+            this.txtAzureSiteUrl.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAzureSiteUrl.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // btnGo
             // 
@@ -1244,6 +1715,30 @@
             this.metroStyleManager1.Owner = this;
             this.metroStyleManager1.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
+            // btnAzureAdCertificatePath
+            // 
+            this.btnAzureAdCertificatePath.Location = new System.Drawing.Point(303, 303);
+            this.btnAzureAdCertificatePath.Name = "btnAzureAdCertificatePath";
+            this.btnAzureAdCertificatePath.Size = new System.Drawing.Size(30, 23);
+            this.btnAzureAdCertificatePath.TabIndex = 42;
+            this.btnAzureAdCertificatePath.Text = "...";
+            this.btnAzureAdCertificatePath.UseSelectable = true;
+            this.btnAzureAdCertificatePath.Click += new System.EventHandler(this.BtnAzureAdCertificatePath_Click);
+            // 
+            // btnSpCertificatePath
+            // 
+            this.btnSpCertificatePath.Location = new System.Drawing.Point(303, 419);
+            this.btnSpCertificatePath.Name = "btnSpCertificatePath";
+            this.btnSpCertificatePath.Size = new System.Drawing.Size(30, 23);
+            this.btnSpCertificatePath.TabIndex = 43;
+            this.btnSpCertificatePath.Text = "...";
+            this.btnSpCertificatePath.UseSelectable = true;
+            this.btnSpCertificatePath.Click += new System.EventHandler(this.BtnSpCertificatePath_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // TokenHelper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1254,14 +1749,17 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "TokenHelper";
             this.Resizable = false;
-            this.Text = "TokenHelper";
+            this.Text = "SharePointTokenHelper";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TokenHelper_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.metroTabControl1.ResumeLayout(false);
             this.metroTabPage1.ResumeLayout(false);
             this.metroTabPage1.PerformLayout();
             this.metroTabPage2.ResumeLayout(false);
             this.metroTabPage2.PerformLayout();
+            this.metroTabPage3.ResumeLayout(false);
+            this.metroTabPage3.PerformLayout();
             this.metroPanel1.ResumeLayout(false);
             this.metroPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).EndInit();
@@ -1332,6 +1830,31 @@
         private MetroFramework.Controls.MetroLabel lbHint;
         private MetroFramework.Controls.MetroPanel metroPanel1;
         private MetroFramework.Components.MetroStyleManager metroStyleManager1;
+        private MetroFramework.Controls.MetroTile metroTile4;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroLabel metroLabel13;
+        private MetroFramework.Controls.MetroLabel metroLabel15;
+        private MetroFramework.Controls.MetroTextBox txtAzureRedirectUrl;
+        private MetroFramework.Controls.MetroTextBox txtAzureClientId;
+        private MetroFramework.Controls.MetroTextBox txtAzureSiteUrl;
+        private MetroFramework.Controls.MetroToggle toggleAzureNativeApp;
+        private MetroFramework.Controls.MetroToggle toggleAzureAppOnly;
+        private MetroFramework.Controls.MetroTile metroTile7;
+        private MetroFramework.Controls.MetroLabel metroLabel16;
+        private MetroFramework.Controls.MetroLabel metroLabel17;
+        private MetroFramework.Controls.MetroLabel metroLabel18;
+        private MetroFramework.Controls.MetroLabel metroLabel19;
+        private MetroFramework.Controls.MetroLabel metroLabel20;
+        private MetroFramework.Controls.MetroTextBox txtAzureCertificatePasswords;
+        private MetroFramework.Controls.MetroTextBox txtAzureCertificatePath;
+        private MetroFramework.Controls.MetroTextBox txtAzureRedirectUrlAppOnly;
+        private MetroFramework.Controls.MetroTextBox txtAzureAppIdAppOnly;
+        private MetroFramework.Controls.MetroTextBox txtAzureSiteUrlAppOnly;
+        private MetroFramework.Controls.MetroLabel metroLabel21;
+        private MetroFramework.Controls.MetroTextBox txtAzureAdTenant;
+        private MetroFramework.Controls.MetroButton btnSpCertificatePath;
+        private MetroFramework.Controls.MetroButton btnAzureAdCertificatePath;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 

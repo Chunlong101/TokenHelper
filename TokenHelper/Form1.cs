@@ -21,6 +21,14 @@ namespace TokenHelper
 
             HideAdfsParameterControls();
             HideHighTrustParameterControls();
+
+            LoadSettings();
+        }
+
+        private void TokenHelper_FormClosing(object sender, System.Windows.Forms.FormClosingEventArgs e)
+        {
+            log.Info("Bye world, the form is closing");
+            SaveSettings();
         }
 
         private void ShowAdfsParameterControls()
@@ -55,6 +63,7 @@ namespace TokenHelper
             txtSpCertificatePath.Show();
             lbSpCertificatePasswords.Show();
             txtSpCertificatePasswords.Show();
+            btnSpCertificatePath.Show();
             lbSpAppSecret.Hide();
             txtSpAppSecret.Hide();
         }
@@ -67,15 +76,97 @@ namespace TokenHelper
             txtSpCertificatePath.Hide();
             lbSpCertificatePasswords.Hide();
             txtSpCertificatePasswords.Hide();
+            btnSpCertificatePath.Hide();
             lbSpAppSecret.Show();
             txtSpAppSecret.Show();
+        }
+
+        private void LoadSettings()
+        {
+            txtSpoSiteUrlCredentials.Text = Properties.Settings.Default.SiteUrlSpoCred;
+            txtSpoUsername.Text = Properties.Settings.Default.UsernameSpo;
+            txtSpoPasswords.Text = Properties.Settings.Default.PasswordsSpo;
+
+            txtSpoSiteUrlAppOnly.Text = Properties.Settings.Default.SiteUrlSpoApp;
+            txtSpoAppId.Text = Properties.Settings.Default.AppIdSpo;
+            txtSpoAppSecret.Text = Properties.Settings.Default.AppSecretSpo;
+
+            txtSpoSiteUrlInteractive.Text = Properties.Settings.Default.SiteUrlSpoInteractive;
+
+            txtSpSiteUrlCredentials.Text = Properties.Settings.Default.SiteUrlSpCred;
+            txtSpUsername.Text = Properties.Settings.Default.UsernameSp;
+            txtSpPasswords.Text = Properties.Settings.Default.PasswordsSp;
+
+            txtSpDomain.Text = Properties.Settings.Default.DomainAdfs;
+            txtSpSts.Text = Properties.Settings.Default.StsAdfs;
+            txtSpIdp.Text = Properties.Settings.Default.IdpAdfs;
+            txtSpTokenExpirationWindow.Text = Properties.Settings.Default.TokenExpAdfs;
+
+            txtSpSiteUrlAppOnly.Text = Properties.Settings.Default.SiteUrlSpoApp;
+            txtSpAppId.Text = Properties.Settings.Default.AppIdSp;
+
+            txtSpCertificateIssuerId.Text = Properties.Settings.Default.CertificateIssuerIdSp;
+            txtSpCertificatePath.Text = Properties.Settings.Default.CertificatePathSp;
+            txtSpCertificatePasswords.Text = Properties.Settings.Default.CertificatePasswordsSp;
+
+            txtAzureSiteUrl.Text = Properties.Settings.Default.SiteUrlAzureAdCred;
+            txtAzureClientId.Text = Properties.Settings.Default.ClientIdAzureAd;
+            txtAzureRedirectUrl.Text = Properties.Settings.Default.RedirectUrlAzureAdCred;
+
+            txtAzureSiteUrlAppOnly.Text = Properties.Settings.Default.SiteUrlAzureAdApp;
+            txtAzureAdTenant.Text = Properties.Settings.Default.TenatAzureAd;
+            txtAzureAppIdAppOnly.Text = Properties.Settings.Default.AppIdAzureAd;
+            txtAzureRedirectUrlAppOnly.Text = Properties.Settings.Default.RedirectUrlAzureAdApp;
+            txtAzureCertificatePath.Text = Properties.Settings.Default.CertificatePathAzureAd;
+            txtAzureCertificatePasswords.Text = Properties.Settings.Default.CertificatePasswordsAzureAd;
+        }
+
+        private void SaveSettings()
+        {
+            Properties.Settings.Default.SiteUrlSpoCred = txtSpoSiteUrlCredentials.Text;
+            Properties.Settings.Default.UsernameSpo = txtSpoUsername.Text;
+            Properties.Settings.Default.PasswordsSpo = txtSpoPasswords.Text;
+
+            Properties.Settings.Default.SiteUrlSpoApp = txtSpoSiteUrlAppOnly.Text;
+            Properties.Settings.Default.AppIdSpo = txtSpoAppId.Text;
+            Properties.Settings.Default.AppSecretSpo = txtSpoAppSecret.Text;
+
+            Properties.Settings.Default.SiteUrlSpoInteractive = txtSpoSiteUrlInteractive.Text;
+
+            Properties.Settings.Default.SiteUrlSpCred = txtSpSiteUrlCredentials.Text;
+            Properties.Settings.Default.UsernameSp = txtSpUsername.Text;
+            Properties.Settings.Default.PasswordsSp = txtSpPasswords.Text;
+
+            Properties.Settings.Default.DomainAdfs = txtSpDomain.Text;
+            Properties.Settings.Default.StsAdfs = txtSpSts.Text;
+            Properties.Settings.Default.IdpAdfs = txtSpIdp.Text;
+            Properties.Settings.Default.TokenExpAdfs = txtSpTokenExpirationWindow.Text;
+
+            Properties.Settings.Default.SiteUrlSpoApp = txtSpSiteUrlAppOnly.Text;
+            Properties.Settings.Default.AppIdSp = txtSpAppId.Text;
+
+            Properties.Settings.Default.CertificateIssuerIdSp = txtSpCertificateIssuerId.Text;
+            Properties.Settings.Default.CertificatePathSp = txtSpCertificatePath.Text;
+            Properties.Settings.Default.CertificatePasswordsSp = txtSpCertificatePasswords.Text;
+
+            Properties.Settings.Default.SiteUrlAzureAdCred = txtAzureSiteUrl.Text;
+            Properties.Settings.Default.ClientIdAzureAd = txtAzureClientId.Text;
+            Properties.Settings.Default.RedirectUrlAzureAdCred = txtAzureRedirectUrl.Text;
+
+            Properties.Settings.Default.SiteUrlAzureAdApp = txtAzureSiteUrlAppOnly.Text;
+            Properties.Settings.Default.TenatAzureAd = txtAzureAdTenant.Text;
+            Properties.Settings.Default.AppIdAzureAd = txtAzureAppIdAppOnly.Text;
+            Properties.Settings.Default.RedirectUrlAzureAdApp = txtAzureRedirectUrlAppOnly.Text;
+            Properties.Settings.Default.CertificatePathAzureAd = txtAzureCertificatePath.Text;
+            Properties.Settings.Default.CertificatePasswordsAzureAd = txtAzureCertificatePasswords.Text;
+
+            Properties.Settings.Default.Save();
         }
 
         private void BtnGo_Click(object sender, EventArgs e)
         {
             try
             {
-
                 //
                 // Begin - SharePoint Online 
                 //
@@ -91,6 +182,7 @@ namespace TokenHelper
                         cc.ExecuteQueryRetry();
 
                         lbHint.Text = System.String.Format("You've just got the token, the site title is {0}", web.Title);
+                        log.Info("You've got the token via GetSharePointOnlineAuthenticatedContextTenant");
                     }
                 }
 
@@ -105,6 +197,7 @@ namespace TokenHelper
                         cc.ExecuteQueryRetry();
 
                         lbHint.Text = System.String.Format("You've just got the token, the site title is {0}", web.Title);
+                        log.Info("You've got the token via GetAppOnlyAuthenticatedContext");
                     }
                 }
 
@@ -119,6 +212,7 @@ namespace TokenHelper
                         cc.ExecuteQueryRetry();
 
                         lbHint.Text = System.String.Format("You've just got the token, the site title is {0}", web.Title);
+                        log.Info("You've got the token via GetWebLoginClientContext");
                     }
                 }
 
@@ -141,6 +235,7 @@ namespace TokenHelper
                         cc.ExecuteQueryRetry();
 
                         lbHint.Text = System.String.Format("You've just got the token, the site title is {0}", web.Title);
+                        log.Info("You've got the token via GetNetworkCredentialAuthenticatedContext");
                     }
                 }
 
@@ -155,9 +250,9 @@ namespace TokenHelper
                         cc.ExecuteQueryRetry();
 
                         lbHint.Text = System.String.Format("You've just got the token, the site title is {0}", web.Title);
+                        log.Info("You've got the token via GetADFSUserNameMixedAuthenticatedContext");
                     }
                 }
-
 
                 if (toggleSpAppOnly.Checked && checkHighTrust.Checked)
                 {
@@ -170,6 +265,7 @@ namespace TokenHelper
                         cc.ExecuteQueryRetry();
 
                         lbHint.Text = System.String.Format("You've just got the token, the site title is {0}", web.Title);
+                        log.Info("You've got the token via GetHighTrustCertificateAppOnlyAuthenticatedContext");
                     }
                 }
 
@@ -184,6 +280,7 @@ namespace TokenHelper
                         cc.ExecuteQueryRetry();
 
                         lbHint.Text = System.String.Format("You've just got the token, the site title is {0}", web.Title);
+                        log.Info("You've got the token via GetAppOnlyAuthenticatedContext");
                     }
                 }
 
@@ -195,9 +292,35 @@ namespace TokenHelper
                 // Begin - Azure Ad  
                 //
 
+                if (toggleAzureNativeApp.Checked)
+                {
+                    // Azure native app 
+                    log.Info("Getting the client context now using GetAzureADNativeApplicationAuthenticatedContext  sharepoint on prem credentials, low trust");
+                    using (ClientContext cc = new AuthenticationManager().GetAzureADNativeApplicationAuthenticatedContext(txtAzureSiteUrl.Text, txtAzureClientId.Text, txtAzureRedirectUrl.Text))
+                    {
+                        Web web = cc.Web;
+                        cc.Load(web, w => w.Title);
+                        cc.ExecuteQueryRetry();
 
-                // ... 
+                        lbHint.Text = System.String.Format("You've just got the token, the site title is {0}", web.Title);
+                        log.Info("You've got the token via GetAzureADNativeApplicationAuthenticatedContext");
+                    }
+                }
 
+                if (toggleAzureAppOnly.Checked)
+                {
+                    // Azure app only 
+                    log.Info("Getting the client context now using GetAzureADAppOnlyAuthenticatedContext  sharepoint on prem credentials, low trust");
+                    using (ClientContext cc = new AuthenticationManager().GetAzureADAppOnlyAuthenticatedContext(txtAzureSiteUrlAppOnly.Text, txtAzureAppIdAppOnly.Text, txtAzureAdTenant.Text, txtAzureCertificatePath.Text, txtAzureCertificatePasswords.Text))
+                    {
+                        Web web = cc.Web;
+                        cc.Load(web, w => w.Title);
+                        cc.ExecuteQueryRetry();
+
+                        lbHint.Text = System.String.Format("You've just got the token, the site title is {0}", web.Title);
+                        log.Info("You've got the token via GetAzureADAppOnlyAuthenticatedContext");
+                    }
+                }
 
                 //
                 // End - Azure Ad  
@@ -219,8 +342,8 @@ namespace TokenHelper
             }
             catch (Exception ex)
             {
-                log.Error(ex, "Getting errors while BtnLogs_Click");
                 lbHint.Text = "Something went wrong, pls check the config file";
+                log.Error(ex, "Getting errors while BtnLogs_Click");
             }
         }
 
@@ -232,14 +355,14 @@ namespace TokenHelper
                 {
                     HideAdfsParameterControls();
                 }
-
-                if (checkADFS.Checked)
+                else
                 {
                     ShowAdfsParameterControls();
                 }
             }
             catch (Exception ex)
             {
+                lbHint.Text = "Something went wrong, pls check the config file";
                 log.Error(ex, "Getting errors while CheckADFS_CheckedChanged");
             }
         }
@@ -252,14 +375,43 @@ namespace TokenHelper
                 {
                     ShowHighTrustParameterControls();
                 }
-
-                if (!checkHighTrust.Checked)
+                else
                 {
                     HideHighTrustParameterControls();
                 }
             }
             catch (Exception ex)
             {
+                lbHint.Text = "Something went wrong, pls check the config file";
+                log.Error(ex, "Getting errors while CheckHighTrust_CheckedChanged");
+            }
+        }
+
+        private void BtnSpCertificatePath_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                openFileDialog1.ShowDialog();
+                txtSpCertificatePath.Text = openFileDialog1.FileName;
+
+            }
+            catch (Exception ex)
+            {
+                lbHint.Text = "Something went wrong, pls check the config file";
+                log.Error(ex, "Getting errors while CheckHighTrust_CheckedChanged");
+            }
+        }
+
+        private void BtnAzureAdCertificatePath_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                openFileDialog1.ShowDialog();
+                txtAzureCertificatePath.Text = openFileDialog1.FileName;
+            }
+            catch (Exception ex)
+            {
+                lbHint.Text = "Something went wrong, pls check the config file";
                 log.Error(ex, "Getting errors while CheckHighTrust_CheckedChanged");
             }
         }
