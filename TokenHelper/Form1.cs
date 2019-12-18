@@ -3,6 +3,7 @@ using NLog;
 using OfficeDevPnP.Core;
 using System;
 using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace TokenHelper
 {
@@ -167,6 +168,8 @@ namespace TokenHelper
         {
             try
             {
+                Cursor.Current = Cursors.WaitCursor;
+
                 //
                 // Begin - SharePoint Online 
                 //
@@ -192,6 +195,7 @@ namespace TokenHelper
                     log.Info("Getting the client context now using GetAppOnlyAuthenticatedContext sharepoint online app only");
                     using (ClientContext cc = new AuthenticationManager().GetAppOnlyAuthenticatedContext(txtSpoSiteUrlAppOnly.Text, txtSpoAppId.Text, txtSpoAppSecret.Text))
                     {
+                        log.Info(string.Format("Getting the access token: {0}", cc.GetAccessToken()));
                         Web web = cc.Web;
                         cc.Load(web, w => w.Title);
                         cc.ExecuteQueryRetry();
@@ -260,6 +264,7 @@ namespace TokenHelper
                     log.Info("Getting the client context now using GetHighTrustCertificateAppOnlyAuthenticatedContext sharepoint on prem credentials, high trust");
                     using (ClientContext cc = new AuthenticationManager().GetHighTrustCertificateAppOnlyAuthenticatedContext(txtSpSiteUrlAppOnly.Text, txtSpAppId.Text, txtSpCertificatePath.Text, txtSpCertificatePasswords.Text, txtSpCertificateIssuerId.Text))
                     {
+                        log.Info(string.Format("Getting the access token: {0}", cc.GetAccessToken()));
                         Web web = cc.Web;
                         cc.Load(web, w => w.Title);
                         cc.ExecuteQueryRetry();
@@ -275,6 +280,7 @@ namespace TokenHelper
                     log.Info("Getting the client context now using GetAppOnlyAuthenticatedContext sharepoint on prem credentials, low trust");
                     using (ClientContext cc = new AuthenticationManager().GetAppOnlyAuthenticatedContext(txtSpSiteUrlAppOnly.Text, txtSpAppId.Text, txtSpAppSecret.Text))
                     {
+                        log.Info(string.Format("Getting the access token: {0}", cc.GetAccessToken()));
                         Web web = cc.Web;
                         cc.Load(web, w => w.Title);
                         cc.ExecuteQueryRetry();
@@ -313,6 +319,7 @@ namespace TokenHelper
                     log.Info("Getting the client context now using GetAzureADAppOnlyAuthenticatedContext sharepoint on prem credentials, low trust");
                     using (ClientContext cc = new AuthenticationManager().GetAzureADAppOnlyAuthenticatedContext(txtAzureSiteUrlAppOnly.Text, txtAzureAppIdAppOnly.Text, txtAzureAdTenant.Text, txtAzureCertificatePath.Text, txtAzureCertificatePasswords.Text))
                     {
+                        log.Info(string.Format("Getting the access token: {0}", cc.GetAccessToken()));
                         Web web = cc.Web;
                         cc.Load(web, w => w.Title);
                         cc.ExecuteQueryRetry();
@@ -330,6 +337,10 @@ namespace TokenHelper
             {
                 lbHint.Text = "Something went wrong, pls check the log file for more details";
                 log.Error(ex, "Getting errors while BtnGo_Click");
+            }
+            finally
+            {
+                Cursor.Current = Cursors.Default;
             }
         }
 
