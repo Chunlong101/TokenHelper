@@ -117,7 +117,6 @@ namespace TokenHelper
             txtAzureSiteUrlAppOnly.Text = Properties.Settings.Default.SiteUrlAzureAdApp;
             txtAzureAdTenant.Text = Properties.Settings.Default.TenatAzureAd;
             txtAzureAppIdAppOnly.Text = Properties.Settings.Default.AppIdAzureAd;
-            txtAzureRedirectUrlAppOnly.Text = Properties.Settings.Default.RedirectUrlAzureAdApp;
             txtAzureCertificatePath.Text = Properties.Settings.Default.CertificatePathAzureAd;
             txtAzureCertificatePasswords.Text = Properties.Settings.Default.CertificatePasswordsAzureAd;
         }
@@ -157,7 +156,6 @@ namespace TokenHelper
             Properties.Settings.Default.SiteUrlAzureAdApp = txtAzureSiteUrlAppOnly.Text;
             Properties.Settings.Default.TenatAzureAd = txtAzureAdTenant.Text;
             Properties.Settings.Default.AppIdAzureAd = txtAzureAppIdAppOnly.Text;
-            Properties.Settings.Default.RedirectUrlAzureAdApp = txtAzureRedirectUrlAppOnly.Text;
             Properties.Settings.Default.CertificatePathAzureAd = txtAzureCertificatePath.Text;
             Properties.Settings.Default.CertificatePasswordsAzureAd = txtAzureCertificatePasswords.Text;
 

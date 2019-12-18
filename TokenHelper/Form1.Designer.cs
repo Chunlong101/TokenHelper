@@ -93,13 +93,11 @@
             this.metroLabel16 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel17 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel21 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel18 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel20 = new MetroFramework.Controls.MetroLabel();
             this.txtAzureCertificatePasswords = new MetroFramework.Controls.MetroTextBox();
             this.txtAzureAdTenant = new MetroFramework.Controls.MetroTextBox();
             this.txtAzureCertificatePath = new MetroFramework.Controls.MetroTextBox();
-            this.txtAzureRedirectUrlAppOnly = new MetroFramework.Controls.MetroTextBox();
             this.txtAzureAppIdAppOnly = new MetroFramework.Controls.MetroTextBox();
             this.txtAzureSiteUrlAppOnly = new MetroFramework.Controls.MetroTextBox();
             this.toggleAzureNativeApp = new MetroFramework.Controls.MetroToggle();
@@ -131,7 +129,7 @@
             this.metroTabControl1.Controls.Add(this.metroTabPage3);
             resources.ApplyResources(this.metroTabControl1, "metroTabControl1");
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 0;
+            this.metroTabControl1.SelectedIndex = 2;
             this.metroTabControl1.UseSelectable = true;
             // 
             // metroTabPage1
@@ -1023,13 +1021,11 @@
             this.metroTabPage3.Controls.Add(this.metroLabel16);
             this.metroTabPage3.Controls.Add(this.metroLabel17);
             this.metroTabPage3.Controls.Add(this.metroLabel21);
-            this.metroTabPage3.Controls.Add(this.metroLabel18);
             this.metroTabPage3.Controls.Add(this.metroLabel19);
             this.metroTabPage3.Controls.Add(this.metroLabel20);
             this.metroTabPage3.Controls.Add(this.txtAzureCertificatePasswords);
             this.metroTabPage3.Controls.Add(this.txtAzureAdTenant);
             this.metroTabPage3.Controls.Add(this.txtAzureCertificatePath);
-            this.metroTabPage3.Controls.Add(this.txtAzureRedirectUrlAppOnly);
             this.metroTabPage3.Controls.Add(this.txtAzureAppIdAppOnly);
             this.metroTabPage3.Controls.Add(this.txtAzureSiteUrlAppOnly);
             this.metroTabPage3.Controls.Add(this.toggleAzureNativeApp);
@@ -1087,11 +1083,6 @@
             // 
             resources.ApplyResources(this.metroLabel21, "metroLabel21");
             this.metroLabel21.Name = "metroLabel21";
-            // 
-            // metroLabel18
-            // 
-            resources.ApplyResources(this.metroLabel18, "metroLabel18");
-            this.metroLabel18.Name = "metroLabel18";
             // 
             // metroLabel19
             // 
@@ -1193,52 +1184,22 @@
             this.txtAzureCertificatePath.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtAzureCertificatePath.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // txtAzureRedirectUrlAppOnly
-            // 
-            // 
-            // 
-            // 
-            this.txtAzureRedirectUrlAppOnly.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image23")));
-            this.txtAzureRedirectUrlAppOnly.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode23")));
-            this.txtAzureRedirectUrlAppOnly.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location23")));
-            this.txtAzureRedirectUrlAppOnly.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin23")));
-            this.txtAzureRedirectUrlAppOnly.CustomButton.Name = "";
-            this.txtAzureRedirectUrlAppOnly.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size23")));
-            this.txtAzureRedirectUrlAppOnly.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtAzureRedirectUrlAppOnly.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex23")));
-            this.txtAzureRedirectUrlAppOnly.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtAzureRedirectUrlAppOnly.CustomButton.UseSelectable = true;
-            this.txtAzureRedirectUrlAppOnly.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible23")));
-            this.txtAzureRedirectUrlAppOnly.Lines = new string[0];
-            resources.ApplyResources(this.txtAzureRedirectUrlAppOnly, "txtAzureRedirectUrlAppOnly");
-            this.txtAzureRedirectUrlAppOnly.MaxLength = 32767;
-            this.txtAzureRedirectUrlAppOnly.Name = "txtAzureRedirectUrlAppOnly";
-            this.txtAzureRedirectUrlAppOnly.PasswordChar = '\0';
-            this.txtAzureRedirectUrlAppOnly.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtAzureRedirectUrlAppOnly.SelectedText = "";
-            this.txtAzureRedirectUrlAppOnly.SelectionLength = 0;
-            this.txtAzureRedirectUrlAppOnly.SelectionStart = 0;
-            this.txtAzureRedirectUrlAppOnly.ShortcutsEnabled = true;
-            this.txtAzureRedirectUrlAppOnly.UseSelectable = true;
-            this.txtAzureRedirectUrlAppOnly.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtAzureRedirectUrlAppOnly.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
             // txtAzureAppIdAppOnly
             // 
             // 
             // 
             // 
-            this.txtAzureAppIdAppOnly.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image24")));
-            this.txtAzureAppIdAppOnly.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode24")));
-            this.txtAzureAppIdAppOnly.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location24")));
-            this.txtAzureAppIdAppOnly.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin24")));
+            this.txtAzureAppIdAppOnly.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image23")));
+            this.txtAzureAppIdAppOnly.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode23")));
+            this.txtAzureAppIdAppOnly.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location23")));
+            this.txtAzureAppIdAppOnly.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin23")));
             this.txtAzureAppIdAppOnly.CustomButton.Name = "";
-            this.txtAzureAppIdAppOnly.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size24")));
+            this.txtAzureAppIdAppOnly.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size23")));
             this.txtAzureAppIdAppOnly.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtAzureAppIdAppOnly.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex24")));
+            this.txtAzureAppIdAppOnly.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex23")));
             this.txtAzureAppIdAppOnly.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtAzureAppIdAppOnly.CustomButton.UseSelectable = true;
-            this.txtAzureAppIdAppOnly.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible24")));
+            this.txtAzureAppIdAppOnly.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible23")));
             this.txtAzureAppIdAppOnly.Lines = new string[0];
             resources.ApplyResources(this.txtAzureAppIdAppOnly, "txtAzureAppIdAppOnly");
             this.txtAzureAppIdAppOnly.MaxLength = 32767;
@@ -1258,17 +1219,17 @@
             // 
             // 
             // 
-            this.txtAzureSiteUrlAppOnly.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image25")));
-            this.txtAzureSiteUrlAppOnly.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode25")));
-            this.txtAzureSiteUrlAppOnly.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location25")));
-            this.txtAzureSiteUrlAppOnly.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin25")));
+            this.txtAzureSiteUrlAppOnly.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image24")));
+            this.txtAzureSiteUrlAppOnly.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode24")));
+            this.txtAzureSiteUrlAppOnly.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location24")));
+            this.txtAzureSiteUrlAppOnly.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin24")));
             this.txtAzureSiteUrlAppOnly.CustomButton.Name = "";
-            this.txtAzureSiteUrlAppOnly.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size25")));
+            this.txtAzureSiteUrlAppOnly.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size24")));
             this.txtAzureSiteUrlAppOnly.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtAzureSiteUrlAppOnly.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex25")));
+            this.txtAzureSiteUrlAppOnly.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex24")));
             this.txtAzureSiteUrlAppOnly.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtAzureSiteUrlAppOnly.CustomButton.UseSelectable = true;
-            this.txtAzureSiteUrlAppOnly.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible25")));
+            this.txtAzureSiteUrlAppOnly.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible24")));
             this.txtAzureSiteUrlAppOnly.Lines = new string[0];
             resources.ApplyResources(this.txtAzureSiteUrlAppOnly, "txtAzureSiteUrlAppOnly");
             this.txtAzureSiteUrlAppOnly.MaxLength = 32767;
@@ -1320,17 +1281,17 @@
             // 
             // 
             // 
-            this.txtAzureRedirectUrl.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image26")));
-            this.txtAzureRedirectUrl.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode26")));
-            this.txtAzureRedirectUrl.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location26")));
-            this.txtAzureRedirectUrl.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin26")));
+            this.txtAzureRedirectUrl.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image25")));
+            this.txtAzureRedirectUrl.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode25")));
+            this.txtAzureRedirectUrl.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location25")));
+            this.txtAzureRedirectUrl.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin25")));
             this.txtAzureRedirectUrl.CustomButton.Name = "";
-            this.txtAzureRedirectUrl.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size26")));
+            this.txtAzureRedirectUrl.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size25")));
             this.txtAzureRedirectUrl.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtAzureRedirectUrl.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex26")));
+            this.txtAzureRedirectUrl.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex25")));
             this.txtAzureRedirectUrl.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtAzureRedirectUrl.CustomButton.UseSelectable = true;
-            this.txtAzureRedirectUrl.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible26")));
+            this.txtAzureRedirectUrl.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible25")));
             this.txtAzureRedirectUrl.Lines = new string[0];
             resources.ApplyResources(this.txtAzureRedirectUrl, "txtAzureRedirectUrl");
             this.txtAzureRedirectUrl.MaxLength = 32767;
@@ -1350,17 +1311,17 @@
             // 
             // 
             // 
-            this.txtAzureClientId.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image27")));
-            this.txtAzureClientId.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode27")));
-            this.txtAzureClientId.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location27")));
-            this.txtAzureClientId.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin27")));
+            this.txtAzureClientId.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image26")));
+            this.txtAzureClientId.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode26")));
+            this.txtAzureClientId.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location26")));
+            this.txtAzureClientId.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin26")));
             this.txtAzureClientId.CustomButton.Name = "";
-            this.txtAzureClientId.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size27")));
+            this.txtAzureClientId.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size26")));
             this.txtAzureClientId.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtAzureClientId.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex27")));
+            this.txtAzureClientId.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex26")));
             this.txtAzureClientId.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtAzureClientId.CustomButton.UseSelectable = true;
-            this.txtAzureClientId.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible27")));
+            this.txtAzureClientId.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible26")));
             this.txtAzureClientId.Lines = new string[0];
             resources.ApplyResources(this.txtAzureClientId, "txtAzureClientId");
             this.txtAzureClientId.MaxLength = 32767;
@@ -1380,17 +1341,17 @@
             // 
             // 
             // 
-            this.txtAzureSiteUrl.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image28")));
-            this.txtAzureSiteUrl.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode28")));
-            this.txtAzureSiteUrl.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location28")));
-            this.txtAzureSiteUrl.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin28")));
+            this.txtAzureSiteUrl.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image27")));
+            this.txtAzureSiteUrl.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode27")));
+            this.txtAzureSiteUrl.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location27")));
+            this.txtAzureSiteUrl.CustomButton.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("resource.Margin27")));
             this.txtAzureSiteUrl.CustomButton.Name = "";
-            this.txtAzureSiteUrl.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size28")));
+            this.txtAzureSiteUrl.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size27")));
             this.txtAzureSiteUrl.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtAzureSiteUrl.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex28")));
+            this.txtAzureSiteUrl.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex27")));
             this.txtAzureSiteUrl.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtAzureSiteUrl.CustomButton.UseSelectable = true;
-            this.txtAzureSiteUrl.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible28")));
+            this.txtAzureSiteUrl.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible27")));
             this.txtAzureSiteUrl.Lines = new string[0];
             resources.ApplyResources(this.txtAzureSiteUrl, "txtAzureSiteUrl");
             this.txtAzureSiteUrl.MaxLength = 32767;
@@ -1559,12 +1520,10 @@
         private MetroFramework.Controls.MetroTile metroTile7;
         private MetroFramework.Controls.MetroLabel metroLabel16;
         private MetroFramework.Controls.MetroLabel metroLabel17;
-        private MetroFramework.Controls.MetroLabel metroLabel18;
         private MetroFramework.Controls.MetroLabel metroLabel19;
         private MetroFramework.Controls.MetroLabel metroLabel20;
         private MetroFramework.Controls.MetroTextBox txtAzureCertificatePasswords;
         private MetroFramework.Controls.MetroTextBox txtAzureCertificatePath;
-        private MetroFramework.Controls.MetroTextBox txtAzureRedirectUrlAppOnly;
         private MetroFramework.Controls.MetroTextBox txtAzureAppIdAppOnly;
         private MetroFramework.Controls.MetroTextBox txtAzureSiteUrlAppOnly;
         private MetroFramework.Controls.MetroLabel metroLabel21;

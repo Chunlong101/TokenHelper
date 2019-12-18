@@ -117,342 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;metroTabPage1.Name" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage1.Parent" xml:space="preserve">
-    <value>metroTabControl1</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage2.Name" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage2.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage2.Parent" xml:space="preserve">
-    <value>metroTabControl1</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage3.Name" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage3.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage3.Parent" xml:space="preserve">
-    <value>metroTabControl1</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="metroTabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 5</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="metroTabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="metroTabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>873, 572</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="metroTabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;metroTabControl1.Name" xml:space="preserve">
-    <value>metroTabControl1</value>
-  </data>
-  <data name="&gt;&gt;metroTabControl1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTabControl1.Parent" xml:space="preserve">
-    <value>metroPanel1</value>
-  </data>
-  <data name="&gt;&gt;metroTabControl1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoInteractive.Name" xml:space="preserve">
-    <value>toggleSpoInteractive</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoInteractive.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoInteractive.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoInteractive.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoAppOnly.Name" xml:space="preserve">
-    <value>toggleSpoAppOnly</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoAppOnly.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoAppOnly.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoAppOnly.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoCredentials.Name" xml:space="preserve">
-    <value>toggleSpoCredentials</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoCredentials.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoCredentials.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;toggleSpoCredentials.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;metroTile3.Name" xml:space="preserve">
-    <value>metroTile3</value>
-  </data>
-  <data name="&gt;&gt;metroTile3.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTile3.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroTile3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;metroTile2.Name" xml:space="preserve">
-    <value>metroTile2</value>
-  </data>
-  <data name="&gt;&gt;metroTile2.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTile2.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroTile2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;metroTile1.Name" xml:space="preserve">
-    <value>metroTile1</value>
-  </data>
-  <data name="&gt;&gt;metroTile1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTile1.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroTile1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;metroLabel9.Name" xml:space="preserve">
-    <value>metroLabel9</value>
-  </data>
-  <data name="&gt;&gt;metroLabel9.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel9.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroLabel9.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;metroLabel6.Name" xml:space="preserve">
-    <value>metroLabel6</value>
-  </data>
-  <data name="&gt;&gt;metroLabel6.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel6.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroLabel6.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;metroLabel8.Name" xml:space="preserve">
-    <value>metroLabel8</value>
-  </data>
-  <data name="&gt;&gt;metroLabel8.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel8.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroLabel8.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;metroLabel5.Name" xml:space="preserve">
-    <value>metroLabel5</value>
-  </data>
-  <data name="&gt;&gt;metroLabel5.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel5.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroLabel5.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;metroLabel14.Name" xml:space="preserve">
-    <value>metroLabel14</value>
-  </data>
-  <data name="&gt;&gt;metroLabel14.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel14.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroLabel14.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;metroLabel7.Name" xml:space="preserve">
-    <value>metroLabel7</value>
-  </data>
-  <data name="&gt;&gt;metroLabel7.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel7.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroLabel7.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;metroLabel4.Name" xml:space="preserve">
-    <value>metroLabel4</value>
-  </data>
-  <data name="&gt;&gt;metroLabel4.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel4.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroLabel4.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;txtSpoAppSecret.Name" xml:space="preserve">
-    <value>txtSpoAppSecret</value>
-  </data>
-  <data name="&gt;&gt;txtSpoAppSecret.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpoAppSecret.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;txtSpoAppSecret.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;txtSpoPasswords.Name" xml:space="preserve">
-    <value>txtSpoPasswords</value>
-  </data>
-  <data name="&gt;&gt;txtSpoPasswords.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpoPasswords.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;txtSpoPasswords.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;txtSpoAppId.Name" xml:space="preserve">
-    <value>txtSpoAppId</value>
-  </data>
-  <data name="&gt;&gt;txtSpoAppId.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpoAppId.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;txtSpoAppId.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;txtSpoUsername.Name" xml:space="preserve">
-    <value>txtSpoUsername</value>
-  </data>
-  <data name="&gt;&gt;txtSpoUsername.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpoUsername.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;txtSpoUsername.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlInteractive.Name" xml:space="preserve">
-    <value>txtSpoSiteUrlInteractive</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlInteractive.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlInteractive.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlInteractive.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlAppOnly.Name" xml:space="preserve">
-    <value>txtSpoSiteUrlAppOnly</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlAppOnly.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlAppOnly.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlAppOnly.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlCredentials.Name" xml:space="preserve">
-    <value>txtSpoSiteUrlCredentials</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlCredentials.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlCredentials.Parent" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;txtSpoSiteUrlCredentials.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="metroTabPage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="metroTabPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="metroTabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>865, 530</value>
-  </data>
-  <data name="metroTabPage1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="metroTabPage1.Text" xml:space="preserve">
-    <value>SharePonitOnline</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage1.Name" xml:space="preserve">
-    <value>metroTabPage1</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage1.Parent" xml:space="preserve">
-    <value>metroTabControl1</value>
-  </data>
-  <data name="&gt;&gt;metroTabPage1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="toggleSpoInteractive.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="toggleSpoInteractive.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 460</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="toggleSpoInteractive.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
   </data>
@@ -1122,428 +795,32 @@
   <data name="&gt;&gt;txtSpoSiteUrlCredentials.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="&gt;&gt;btnSpCertificatePath.Name" xml:space="preserve">
-    <value>btnSpCertificatePath</value>
-  </data>
-  <data name="&gt;&gt;btnSpCertificatePath.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;btnSpCertificatePath.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;btnSpCertificatePath.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;checkHighTrust.Name" xml:space="preserve">
-    <value>checkHighTrust</value>
-  </data>
-  <data name="&gt;&gt;checkHighTrust.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;checkHighTrust.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;checkHighTrust.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;checkADFS.Name" xml:space="preserve">
-    <value>checkADFS</value>
-  </data>
-  <data name="&gt;&gt;checkADFS.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;checkADFS.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;checkADFS.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;toggleSpAppOnly.Name" xml:space="preserve">
-    <value>toggleSpAppOnly</value>
-  </data>
-  <data name="&gt;&gt;toggleSpAppOnly.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;toggleSpAppOnly.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;toggleSpAppOnly.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;toggleSpCredentials.Name" xml:space="preserve">
-    <value>toggleSpCredentials</value>
-  </data>
-  <data name="&gt;&gt;toggleSpCredentials.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;toggleSpCredentials.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;toggleSpCredentials.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;metroTile5.Name" xml:space="preserve">
-    <value>metroTile5</value>
-  </data>
-  <data name="&gt;&gt;metroTile5.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTile5.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;metroTile5.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;metroTile6.Name" xml:space="preserve">
-    <value>metroTile6</value>
-  </data>
-  <data name="&gt;&gt;metroTile6.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTile6.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;metroTile6.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificateIssuerId.Name" xml:space="preserve">
-    <value>lbSpCertificateIssuerId</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificateIssuerId.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificateIssuerId.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificateIssuerId.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificatePasswords.Name" xml:space="preserve">
-    <value>lbSpCertificatePasswords</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificatePasswords.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificatePasswords.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificatePasswords.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificatePath.Name" xml:space="preserve">
-    <value>lbSpCertificatePath</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificatePath.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificatePath.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;lbSpCertificatePath.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;lbSpAppSecret.Name" xml:space="preserve">
-    <value>lbSpAppSecret</value>
-  </data>
-  <data name="&gt;&gt;lbSpAppSecret.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbSpAppSecret.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;lbSpAppSecret.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;lbSpDomain.Name" xml:space="preserve">
-    <value>lbSpDomain</value>
-  </data>
-  <data name="&gt;&gt;lbSpDomain.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbSpDomain.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;lbSpDomain.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;lbSpIdp.Name" xml:space="preserve">
-    <value>lbSpIdp</value>
-  </data>
-  <data name="&gt;&gt;lbSpIdp.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbSpIdp.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;lbSpIdp.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;metroLabel2.Name" xml:space="preserve">
-    <value>metroLabel2</value>
-  </data>
-  <data name="&gt;&gt;metroLabel2.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel2.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;metroLabel2.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;metroLabel3.Name" xml:space="preserve">
-    <value>metroLabel3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel3.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel3.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;metroLabel3.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;lbSpTokenExpirationWindow.Name" xml:space="preserve">
-    <value>lbSpTokenExpirationWindow</value>
-  </data>
-  <data name="&gt;&gt;lbSpTokenExpirationWindow.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbSpTokenExpirationWindow.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;lbSpTokenExpirationWindow.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;lbSpSts.Name" xml:space="preserve">
-    <value>lbSpSts</value>
-  </data>
-  <data name="&gt;&gt;lbSpSts.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;lbSpSts.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;lbSpSts.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;metroLabel10.Name" xml:space="preserve">
-    <value>metroLabel10</value>
-  </data>
-  <data name="&gt;&gt;metroLabel10.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel10.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;metroLabel10.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;metroLabel11.Name" xml:space="preserve">
-    <value>metroLabel11</value>
-  </data>
-  <data name="&gt;&gt;metroLabel11.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel11.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;metroLabel11.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificateIssuerId.Name" xml:space="preserve">
-    <value>txtSpCertificateIssuerId</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificateIssuerId.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificateIssuerId.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificateIssuerId.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;metroLabel12.Name" xml:space="preserve">
-    <value>metroLabel12</value>
-  </data>
-  <data name="&gt;&gt;metroLabel12.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel12.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;metroLabel12.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificatePasswords.Name" xml:space="preserve">
-    <value>txtSpCertificatePasswords</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificatePasswords.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificatePasswords.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificatePasswords.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificatePath.Name" xml:space="preserve">
-    <value>txtSpCertificatePath</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificatePath.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificatePath.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpCertificatePath.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;txtSpAppSecret.Name" xml:space="preserve">
-    <value>txtSpAppSecret</value>
-  </data>
-  <data name="&gt;&gt;txtSpAppSecret.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpAppSecret.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpAppSecret.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;txtSpDomain.Name" xml:space="preserve">
-    <value>txtSpDomain</value>
-  </data>
-  <data name="&gt;&gt;txtSpDomain.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpDomain.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpDomain.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;txtSpIdp.Name" xml:space="preserve">
-    <value>txtSpIdp</value>
-  </data>
-  <data name="&gt;&gt;txtSpIdp.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpIdp.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpIdp.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;txtSpPasswords.Name" xml:space="preserve">
-    <value>txtSpPasswords</value>
-  </data>
-  <data name="&gt;&gt;txtSpPasswords.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpPasswords.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpPasswords.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;txtSpTokenExpirationWindow.Name" xml:space="preserve">
-    <value>txtSpTokenExpirationWindow</value>
-  </data>
-  <data name="&gt;&gt;txtSpTokenExpirationWindow.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpTokenExpirationWindow.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpTokenExpirationWindow.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;txtSpAppId.Name" xml:space="preserve">
-    <value>txtSpAppId</value>
-  </data>
-  <data name="&gt;&gt;txtSpAppId.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpAppId.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpAppId.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;txtSpSts.Name" xml:space="preserve">
-    <value>txtSpSts</value>
-  </data>
-  <data name="&gt;&gt;txtSpSts.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpSts.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpSts.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;txtSpUsername.Name" xml:space="preserve">
-    <value>txtSpUsername</value>
-  </data>
-  <data name="&gt;&gt;txtSpUsername.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpUsername.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpUsername.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;txtSpSiteUrlAppOnly.Name" xml:space="preserve">
-    <value>txtSpSiteUrlAppOnly</value>
-  </data>
-  <data name="&gt;&gt;txtSpSiteUrlAppOnly.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpSiteUrlAppOnly.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpSiteUrlAppOnly.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;txtSpSiteUrlCredentials.Name" xml:space="preserve">
-    <value>txtSpSiteUrlCredentials</value>
-  </data>
-  <data name="&gt;&gt;txtSpSiteUrlCredentials.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtSpSiteUrlCredentials.Parent" xml:space="preserve">
-    <value>metroTabPage2</value>
-  </data>
-  <data name="&gt;&gt;txtSpSiteUrlCredentials.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="metroTabPage2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="metroTabPage1.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 38</value>
   </data>
-  <data name="metroTabPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="metroTabPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
   </data>
-  <data name="metroTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="metroTabPage1.Size" type="System.Drawing.Size, System.Drawing">
     <value>865, 530</value>
   </data>
-  <data name="metroTabPage2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="metroTabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="metroTabPage2.Text" xml:space="preserve">
-    <value>SharePointOnPrem</value>
+  <data name="metroTabPage1.Text" xml:space="preserve">
+    <value>SharePonitOnline</value>
   </data>
-  <data name="&gt;&gt;metroTabPage2.Name" xml:space="preserve">
-    <value>metroTabPage2</value>
+  <data name="&gt;&gt;metroTabPage1.Name" xml:space="preserve">
+    <value>metroTabPage1</value>
   </data>
-  <data name="&gt;&gt;metroTabPage2.Type" xml:space="preserve">
+  <data name="&gt;&gt;metroTabPage1.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;metroTabPage2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;metroTabPage1.Parent" xml:space="preserve">
     <value>metroTabControl1</value>
   </data>
-  <data name="&gt;&gt;metroTabPage2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;metroTabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnSpCertificatePath.Location" type="System.Drawing.Point, System.Drawing">
     <value>353, 484</value>
@@ -2682,308 +1959,32 @@
   <data name="&gt;&gt;txtSpSiteUrlCredentials.ZOrder" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="&gt;&gt;btnAzureAdCertificatePath.Name" xml:space="preserve">
-    <value>btnAzureAdCertificatePath</value>
-  </data>
-  <data name="&gt;&gt;btnAzureAdCertificatePath.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;btnAzureAdCertificatePath.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;btnAzureAdCertificatePath.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;toggleAzureAppOnly.Name" xml:space="preserve">
-    <value>toggleAzureAppOnly</value>
-  </data>
-  <data name="&gt;&gt;toggleAzureAppOnly.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;toggleAzureAppOnly.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;toggleAzureAppOnly.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;metroTile7.Name" xml:space="preserve">
-    <value>metroTile7</value>
-  </data>
-  <data name="&gt;&gt;metroTile7.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTile7.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroTile7.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;metroLabel16.Name" xml:space="preserve">
-    <value>metroLabel16</value>
-  </data>
-  <data name="&gt;&gt;metroLabel16.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel16.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel16.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;metroLabel17.Name" xml:space="preserve">
-    <value>metroLabel17</value>
-  </data>
-  <data name="&gt;&gt;metroLabel17.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel17.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel17.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;metroLabel21.Name" xml:space="preserve">
-    <value>metroLabel21</value>
-  </data>
-  <data name="&gt;&gt;metroLabel21.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel21.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel21.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;metroLabel18.Name" xml:space="preserve">
-    <value>metroLabel18</value>
-  </data>
-  <data name="&gt;&gt;metroLabel18.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel18.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel18.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;metroLabel19.Name" xml:space="preserve">
-    <value>metroLabel19</value>
-  </data>
-  <data name="&gt;&gt;metroLabel19.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel19.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel19.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;metroLabel20.Name" xml:space="preserve">
-    <value>metroLabel20</value>
-  </data>
-  <data name="&gt;&gt;metroLabel20.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel20.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel20.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;txtAzureCertificatePasswords.Name" xml:space="preserve">
-    <value>txtAzureCertificatePasswords</value>
-  </data>
-  <data name="&gt;&gt;txtAzureCertificatePasswords.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureCertificatePasswords.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureCertificatePasswords.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;txtAzureAdTenant.Name" xml:space="preserve">
-    <value>txtAzureAdTenant</value>
-  </data>
-  <data name="&gt;&gt;txtAzureAdTenant.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureAdTenant.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureAdTenant.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;txtAzureCertificatePath.Name" xml:space="preserve">
-    <value>txtAzureCertificatePath</value>
-  </data>
-  <data name="&gt;&gt;txtAzureCertificatePath.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureCertificatePath.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureCertificatePath.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrlAppOnly.Name" xml:space="preserve">
-    <value>txtAzureRedirectUrlAppOnly</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrlAppOnly.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrlAppOnly.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrlAppOnly.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;txtAzureAppIdAppOnly.Name" xml:space="preserve">
-    <value>txtAzureAppIdAppOnly</value>
-  </data>
-  <data name="&gt;&gt;txtAzureAppIdAppOnly.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureAppIdAppOnly.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureAppIdAppOnly.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;txtAzureSiteUrlAppOnly.Name" xml:space="preserve">
-    <value>txtAzureSiteUrlAppOnly</value>
-  </data>
-  <data name="&gt;&gt;txtAzureSiteUrlAppOnly.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureSiteUrlAppOnly.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureSiteUrlAppOnly.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;toggleAzureNativeApp.Name" xml:space="preserve">
-    <value>toggleAzureNativeApp</value>
-  </data>
-  <data name="&gt;&gt;toggleAzureNativeApp.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;toggleAzureNativeApp.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;toggleAzureNativeApp.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;metroTile4.Name" xml:space="preserve">
-    <value>metroTile4</value>
-  </data>
-  <data name="&gt;&gt;metroTile4.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroTile4.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroTile4.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;metroLabel1.Name" xml:space="preserve">
-    <value>metroLabel1</value>
-  </data>
-  <data name="&gt;&gt;metroLabel1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel1.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel1.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;metroLabel13.Name" xml:space="preserve">
-    <value>metroLabel13</value>
-  </data>
-  <data name="&gt;&gt;metroLabel13.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel13.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel13.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;metroLabel15.Name" xml:space="preserve">
-    <value>metroLabel15</value>
-  </data>
-  <data name="&gt;&gt;metroLabel15.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel15.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel15.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrl.Name" xml:space="preserve">
-    <value>txtAzureRedirectUrl</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrl.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrl.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrl.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;txtAzureClientId.Name" xml:space="preserve">
-    <value>txtAzureClientId</value>
-  </data>
-  <data name="&gt;&gt;txtAzureClientId.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureClientId.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureClientId.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;txtAzureSiteUrl.Name" xml:space="preserve">
-    <value>txtAzureSiteUrl</value>
-  </data>
-  <data name="&gt;&gt;txtAzureSiteUrl.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureSiteUrl.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureSiteUrl.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="metroTabPage3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="metroTabPage2.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 38</value>
   </data>
-  <data name="metroTabPage3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="metroTabPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
   </data>
-  <data name="metroTabPage3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="metroTabPage2.Size" type="System.Drawing.Size, System.Drawing">
     <value>865, 530</value>
   </data>
-  <data name="metroTabPage3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="metroTabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="metroTabPage3.Text" xml:space="preserve">
-    <value>AzureAD</value>
+  <data name="metroTabPage2.Text" xml:space="preserve">
+    <value>SharePointOnPrem</value>
   </data>
-  <data name="&gt;&gt;metroTabPage3.Name" xml:space="preserve">
-    <value>metroTabPage3</value>
+  <data name="&gt;&gt;metroTabPage2.Name" xml:space="preserve">
+    <value>metroTabPage2</value>
   </data>
-  <data name="&gt;&gt;metroTabPage3.Type" xml:space="preserve">
+  <data name="&gt;&gt;metroTabPage2.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;metroTabPage3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;metroTabPage2.Parent" xml:space="preserve">
     <value>metroTabControl1</value>
   </data>
-  <data name="&gt;&gt;metroTabPage3.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;metroTabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btnAzureAdCertificatePath.Location" type="System.Drawing.Point, System.Drawing">
     <value>353, 340</value>
@@ -3150,33 +2151,6 @@
   <data name="&gt;&gt;metroLabel21.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="metroLabel18.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="metroLabel18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>395, 301</value>
-  </data>
-  <data name="metroLabel18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 19</value>
-  </data>
-  <data name="metroLabel18.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="metroLabel18.Text" xml:space="preserve">
-    <value>Redirect Url</value>
-  </data>
-  <data name="&gt;&gt;metroLabel18.Name" xml:space="preserve">
-    <value>metroLabel18</value>
-  </data>
-  <data name="&gt;&gt;metroLabel18.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroLabel18.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;metroLabel18.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
   <data name="metroLabel19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -3202,7 +2176,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;metroLabel19.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="metroLabel20.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3229,7 +2203,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;metroLabel20.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="resource.Image20" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -3274,7 +2248,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;txtAzureCertificatePasswords.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="resource.Image21" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -3319,7 +2293,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;txtAzureAdTenant.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="resource.Image22" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -3364,7 +2338,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;txtAzureCertificatePath.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="resource.Image23" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -3373,7 +2347,7 @@
     <value>NoControl</value>
   </data>
   <data name="resource.Location23" type="System.Drawing.Point, System.Drawing">
-    <value>346, 1</value>
+    <value>278, 1</value>
   </data>
   <data name="resource.Margin23" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
@@ -3385,51 +2359,6 @@
     <value>1</value>
   </data>
   <data name="resource.Visible23" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtAzureRedirectUrlAppOnly.Location" type="System.Drawing.Point, System.Drawing">
-    <value>493, 301</value>
-  </data>
-  <data name="txtAzureRedirectUrlAppOnly.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="txtAzureRedirectUrlAppOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>370, 25</value>
-  </data>
-  <data name="txtAzureRedirectUrlAppOnly.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrlAppOnly.Name" xml:space="preserve">
-    <value>txtAzureRedirectUrlAppOnly</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrlAppOnly.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrlAppOnly.Parent" xml:space="preserve">
-    <value>metroTabPage3</value>
-  </data>
-  <data name="&gt;&gt;txtAzureRedirectUrlAppOnly.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="resource.Image24" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="resource.ImeMode24" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="resource.Location24" type="System.Drawing.Point, System.Drawing">
-    <value>278, 1</value>
-  </data>
-  <data name="resource.Margin24" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
-  </data>
-  <data name="resource.Size24" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="resource.TabIndex24" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="resource.Visible24" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="txtAzureAppIdAppOnly.Location" type="System.Drawing.Point, System.Drawing">
@@ -3454,27 +2383,27 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;txtAzureAppIdAppOnly.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>13</value>
   </data>
-  <data name="resource.Image25" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="resource.Image24" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="resource.ImeMode25" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="resource.ImeMode24" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="resource.Location25" type="System.Drawing.Point, System.Drawing">
+  <data name="resource.Location24" type="System.Drawing.Point, System.Drawing">
     <value>278, 1</value>
   </data>
-  <data name="resource.Margin25" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="resource.Margin24" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
   </data>
-  <data name="resource.Size25" type="System.Drawing.Size, System.Drawing">
+  <data name="resource.Size24" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
   </data>
-  <data name="resource.TabIndex25" type="System.Int32, mscorlib">
+  <data name="resource.TabIndex24" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="resource.Visible25" type="System.Boolean, mscorlib">
+  <data name="resource.Visible24" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="txtAzureSiteUrlAppOnly.Location" type="System.Drawing.Point, System.Drawing">
@@ -3499,7 +2428,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;txtAzureSiteUrlAppOnly.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>14</value>
   </data>
   <data name="toggleAzureNativeApp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3529,7 +2458,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;toggleAzureNativeApp.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>15</value>
   </data>
   <data name="metroTile4.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 5</value>
@@ -3556,7 +2485,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;metroTile4.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>16</value>
   </data>
   <data name="metroLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3583,7 +2512,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;metroLabel1.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>17</value>
   </data>
   <data name="metroLabel13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3610,7 +2539,7 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;metroLabel13.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>18</value>
   </data>
   <data name="metroLabel15.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3637,27 +2566,27 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;metroLabel15.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>19</value>
   </data>
-  <data name="resource.Image26" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="resource.Image25" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="resource.ImeMode26" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="resource.ImeMode25" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="resource.Location26" type="System.Drawing.Point, System.Drawing">
+  <data name="resource.Location25" type="System.Drawing.Point, System.Drawing">
     <value>346, 1</value>
   </data>
-  <data name="resource.Margin26" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="resource.Margin25" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
   </data>
-  <data name="resource.Size26" type="System.Drawing.Size, System.Drawing">
+  <data name="resource.Size25" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
   </data>
-  <data name="resource.TabIndex26" type="System.Int32, mscorlib">
+  <data name="resource.TabIndex25" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="resource.Visible26" type="System.Boolean, mscorlib">
+  <data name="resource.Visible25" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="txtAzureRedirectUrl.Location" type="System.Drawing.Point, System.Drawing">
@@ -3682,27 +2611,27 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;txtAzureRedirectUrl.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>20</value>
   </data>
-  <data name="resource.Image27" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="resource.Image26" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="resource.ImeMode27" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="resource.ImeMode26" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="resource.Location27" type="System.Drawing.Point, System.Drawing">
+  <data name="resource.Location26" type="System.Drawing.Point, System.Drawing">
     <value>278, 1</value>
   </data>
-  <data name="resource.Margin27" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="resource.Margin26" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
   </data>
-  <data name="resource.Size27" type="System.Drawing.Size, System.Drawing">
+  <data name="resource.Size26" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
   </data>
-  <data name="resource.TabIndex27" type="System.Int32, mscorlib">
+  <data name="resource.TabIndex26" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="resource.Visible27" type="System.Boolean, mscorlib">
+  <data name="resource.Visible26" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="txtAzureClientId.Location" type="System.Drawing.Point, System.Drawing">
@@ -3727,27 +2656,27 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;txtAzureClientId.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>21</value>
   </data>
-  <data name="resource.Image28" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="resource.Image27" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="resource.ImeMode28" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="resource.ImeMode27" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="resource.Location28" type="System.Drawing.Point, System.Drawing">
+  <data name="resource.Location27" type="System.Drawing.Point, System.Drawing">
     <value>753, 1</value>
   </data>
-  <data name="resource.Margin28" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="resource.Margin27" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
   </data>
-  <data name="resource.Size28" type="System.Drawing.Size, System.Drawing">
+  <data name="resource.Size27" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
   </data>
-  <data name="resource.TabIndex28" type="System.Int32, mscorlib">
+  <data name="resource.TabIndex27" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="resource.Visible28" type="System.Boolean, mscorlib">
+  <data name="resource.Visible27" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="txtAzureSiteUrl.Location" type="System.Drawing.Point, System.Drawing">
@@ -3772,7 +2701,58 @@
     <value>metroTabPage3</value>
   </data>
   <data name="&gt;&gt;txtAzureSiteUrl.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>22</value>
+  </data>
+  <data name="metroTabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="metroTabPage3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="metroTabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>865, 530</value>
+  </data>
+  <data name="metroTabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroTabPage3.Text" xml:space="preserve">
+    <value>AzureAD</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage3.Name" xml:space="preserve">
+    <value>metroTabPage3</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage3.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage3.Parent" xml:space="preserve">
+    <value>metroTabControl1</value>
+  </data>
+  <data name="&gt;&gt;metroTabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="metroTabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="metroTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>873, 572</value>
+  </data>
+  <data name="metroTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.Name" xml:space="preserve">
+    <value>metroTabControl1</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.Parent" xml:space="preserve">
+    <value>metroPanel1</value>
+  </data>
+  <data name="&gt;&gt;metroTabControl1.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="btnGo.Location" type="System.Drawing.Point, System.Drawing">
     <value>720, 605</value>
