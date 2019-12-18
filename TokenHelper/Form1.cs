@@ -169,6 +169,7 @@ namespace TokenHelper
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
+                lbHint.Text = "Trying..."; 
 
                 //
                 // Begin - SharePoint Online 
