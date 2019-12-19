@@ -176,7 +176,7 @@ namespace TokenHelper
                 if (toggleSpoCredentials.Checked)
                 {
                     // SharePoint Online Credentials 
-                    log.Info("Getting the client context now using GetSharePointOnlineAuthenticatedContextTenant sharepoint online credentials");
+                    log.Info("Getting the client context now using GetSharePointOnlineAuthenticatedContextTenant sharepoint online credentials, delegated");
                     using (ClientContext cc = new AuthenticationManager().GetSharePointOnlineAuthenticatedContextTenant(txtSpoSiteUrlCredentials.Text, txtSpoUsername.Text, txtSpoPasswords.Text))
                     {
                         Web web = cc.Web;
@@ -191,7 +191,7 @@ namespace TokenHelper
                 if (toggleSpoAppOnly.Checked)
                 {
                     // SharePoint Online App Only 
-                    log.Info("Getting the client context now using GetAppOnlyAuthenticatedContext sharepoint online app only");
+                    log.Info("Getting the client context now using GetAppOnlyAuthenticatedContext sharepoint online app only, low trust");
                     using (ClientContext cc = new AuthenticationManager().GetAppOnlyAuthenticatedContext(txtSpoSiteUrlAppOnly.Text, txtSpoAppId.Text, txtSpoAppSecret.Text))
                     {
                         log.Info(string.Format("Getting the access token: {0}", cc.GetAccessToken()));
@@ -207,7 +207,7 @@ namespace TokenHelper
                 if (toggleSpoInteractive.Checked)
                 {
                     // SharePoint Online Interactive 
-                    log.Info("Getting the client context now using GetWebLoginClientContext sharepoint online interactive");
+                    log.Info("Getting the client context now using GetWebLoginClientContext sharepoint online interactive, delegated");
                     using (ClientContext cc = new AuthenticationManager().GetWebLoginClientContext(txtSpoSiteUrlInteractive.Text))
                     {
                         Web web = cc.Web;
@@ -230,7 +230,7 @@ namespace TokenHelper
                 if (toggleSpCredentials.Checked && !checkADFS.Checked)
                 {
                     // SharePoint On Prem Credentials, without ADFS 
-                    log.Info("Getting the client context now using GetNetworkCredentialAuthenticatedContext sharepoint on prem credentials, without ADFS");
+                    log.Info("Getting the client context now using GetNetworkCredentialAuthenticatedContext sharepoint on prem credentials, delegated no ADFS");
                     using (ClientContext cc = new AuthenticationManager().GetNetworkCredentialAuthenticatedContext(txtSpSiteUrlCredentials.Text, txtSpUsername.Text, txtSpPasswords.Text, txtSpDomain.Text))
                     {
                         Web web = cc.Web;
@@ -245,7 +245,7 @@ namespace TokenHelper
                 if (toggleSpCredentials.Checked && checkADFS.Checked)
                 {
                     // SharePoint On Prem Credentials, with ADFS 
-                    log.Info("Getting the client context now using GetADFSUserNameMixedAuthenticatedContext sharepoint on prem credentials, with ADFS");
+                    log.Info("Getting the client context now using GetADFSUserNameMixedAuthenticatedContext sharepoint on prem credentials, delegated with ADFS");
                     using (ClientContext cc = new AuthenticationManager().GetADFSUserNameMixedAuthenticatedContext(txtSpSiteUrlCredentials.Text, txtSpUsername.Text, txtSpPasswords.Text, txtSpDomain.Text, txtSpSts.Text, lbSpIdp.Text, lbSpTokenExpirationWindow.Text.ToInt32()))
                     {
                         Web web = cc.Web;
@@ -260,7 +260,7 @@ namespace TokenHelper
                 if (toggleSpAppOnly.Checked && checkHighTrust.Checked)
                 {
                     // SharePoint On Prem App Only, High Trust 
-                    log.Info("Getting the client context now using GetHighTrustCertificateAppOnlyAuthenticatedContext sharepoint on prem credentials, high trust");
+                    log.Info("Getting the client context now using GetHighTrustCertificateAppOnlyAuthenticatedContext sharepoint on prem, app only high trust");
                     using (ClientContext cc = new AuthenticationManager().GetHighTrustCertificateAppOnlyAuthenticatedContext(txtSpSiteUrlAppOnly.Text, txtSpAppId.Text, txtSpCertificatePath.Text, txtSpCertificatePasswords.Text, txtSpCertificateIssuerId.Text))
                     {
                         log.Info(string.Format("Getting the access token: {0}", cc.GetAccessToken()));
@@ -276,7 +276,7 @@ namespace TokenHelper
                 if (toggleSpAppOnly.Checked && !checkHighTrust.Checked)
                 {
                     // SharePoint On Prem App Only, Low Trust 
-                    log.Info("Getting the client context now using GetAppOnlyAuthenticatedContext sharepoint on prem credentials, low trust");
+                    log.Info("Getting the client context now using GetAppOnlyAuthenticatedContext sharepoint on prem, app only low trust");
                     using (ClientContext cc = new AuthenticationManager().GetAppOnlyAuthenticatedContext(txtSpSiteUrlAppOnly.Text, txtSpAppId.Text, txtSpAppSecret.Text))
                     {
                         log.Info(string.Format("Getting the access token: {0}", cc.GetAccessToken()));
@@ -300,7 +300,7 @@ namespace TokenHelper
                 if (toggleAzureNativeApp.Checked)
                 {
                     // Azure native app 
-                    log.Info("Getting the client context now using GetAzureADNativeApplicationAuthenticatedContext sharepoint on prem credentials, low trust");
+                    log.Info("Getting the client context now using GetAzureADNativeApplicationAuthenticatedContext sharepoint on prem credentials, delegated interactive");
                     using (ClientContext cc = new AuthenticationManager().GetAzureADNativeApplicationAuthenticatedContext(txtAzureSiteUrl.Text, txtAzureClientId.Text, txtAzureRedirectUrl.Text))
                     {
                         Web web = cc.Web;
@@ -315,7 +315,7 @@ namespace TokenHelper
                 if (toggleAzureAppOnly.Checked)
                 {
                     // Azure app only 
-                    log.Info("Getting the client context now using GetAzureADAppOnlyAuthenticatedContext sharepoint on prem credentials, low trust");
+                    log.Info("Getting the client context now using GetAzureADAppOnlyAuthenticatedContext sharepoint on prem, app only high trust");
                     using (ClientContext cc = new AuthenticationManager().GetAzureADAppOnlyAuthenticatedContext(txtAzureSiteUrlAppOnly.Text, txtAzureAppIdAppOnly.Text, txtAzureAdTenant.Text, txtAzureCertificatePath.Text, txtAzureCertificatePasswords.Text))
                     {
                         log.Info(string.Format("Getting the access token: {0}", cc.GetAccessToken()));
