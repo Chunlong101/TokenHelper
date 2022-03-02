@@ -169,9 +169,7 @@ namespace TokenHelper
                 Cursor.Current = Cursors.WaitCursor;
                 lbHint.Text = "Trying...";
 
-                //
-                // Begin - SharePoint Online 
-                //
+                #region SharePoint Online 
 
                 if (toggleSpoCredentials.Checked)
                 {
@@ -219,13 +217,9 @@ namespace TokenHelper
                     }
                 }
 
-                //
-                // End - SharePoint Online 
-                //
+                #endregion SharePoint Online 
 
-                //
-                // Begin - SharePoint On Prem 
-                //
+                #region SharePoint On Prem 
 
                 if (toggleSpCredentials.Checked && !checkADFS.Checked)
                 {
@@ -289,13 +283,9 @@ namespace TokenHelper
                     }
                 }
 
-                //
-                // End - SharePoint On Prem 
-                //
+                #endregion SharePoint On Prem 
 
-                //
-                // Begin - Azure Ad 
-                //
+                #region Azure Ad 
 
                 if (toggleAzureNativeApp.Checked)
                 {
@@ -328,9 +318,7 @@ namespace TokenHelper
                     }
                 }
 
-                //
-                // End - Azure Ad 
-                //
+                #endregion Azure Ad 
             }
             catch (Exception ex)
             {
